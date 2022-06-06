@@ -1,5 +1,6 @@
 body {
-    
+    padding:0;
+    margin:0;
 }
 /* About Us section style */
 .section__about,
@@ -7,11 +8,11 @@ body {
     background: #fff;
 } 
 .section__about .section__about-top{
-    height:40px;
+    height:96px;
     background: url('../img/divider-1.svg') repeat-x;
 }
 .section__about .section__about-bottom {
-    height:40px;
+    height:166px;
     background: url('../img/divider-2.svg') repeat-x;
 }
 .section__about-main {
@@ -28,7 +29,8 @@ body {
     width:49%;
 }
 .section__about-image img {
-    width:570px;
+    width:100%;
+    vertical-align: middle;
 }
 .section__about-main .section__about-post {
     float:right;
@@ -41,6 +43,11 @@ body {
     float:left;
     width:49%;
 }
+.section__ingredients .section__ingredients-image img {
+    width:100%;
+    vertical-align: middle;
+}
 .section__ingredients .section__ingredients-post {
     float:right;
+    width:49%;
 }
