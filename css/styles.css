@@ -1,6 +1,10 @@
+/* index page styles */
 body {
     padding:0;
     margin:0;
+}
+.header {
+    background: rgb(251, 190, 54);
 }
 /* About Us section style */
 .section__about,
@@ -51,3 +55,6 @@ body {
     float:right;
     width:49%;
 }
+
+/* About page styles */
+.about__page-header {}
