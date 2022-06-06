@@ -8,8 +8,7 @@ body {
 }
 /* About Us section style */
 .section__about,
-.section__ingredients
-{
+.section__ingredients{
     background: #fff;
 } 
 .section__about .section__about-top{
@@ -24,7 +23,8 @@ body {
     overflow: hidden;
 }
 .section__about-main .section__heading,
-.section__ingredients-post-heading {
+.section__ingredients-post-heading,
+.ourBurgers__title {
     color:#e7272d;
     font-size:20px;
     font-family: 'Permanent Marker', cursive;
