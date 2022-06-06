@@ -1,5 +1,46 @@
+body {
+    
+}
 /* About Us section style */
-
+.section__about,
+.section__ingredients {
+    background: #fff;
+} 
+.section__about .section__about-top{
+    height:40px;
+    background: url('../img/divider-1.svg') repeat-x;
+}
+.section__about .section__about-bottom {
+    height:40px;
+    background: url('../img/divider-2.svg') repeat-x;
+}
+.section__about-main {
+    overflow: hidden;
+}
+.section__about-main .section__heading,
+.section__ingredients-post-heading {
+    color:#e7272d;
+    font-size:20px;
+    font-family: 'Permanent Marker', cursive;
+}
+.section__about-image {
+    float:left;
+    width:49%;
+}
 .section__about-image img {
     width:570px;
+}
+.section__about-main .section__about-post {
+    float:right;
+    width:49%;
+}
+.section__ingredients {
+    overflow: hidden;
+}
+.section__ingredients .section__ingredients-image {
+    float:left;
+    width:49%;
+}
+.section__ingredients .section__ingredients-post {
+    float:right;
 }
