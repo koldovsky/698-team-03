@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+}
+
+.header {
+    margin: 0;
+    background-color: #fcbe37;
+    background-image: url(/img/cover.jpg);
+    background-size: cover;
+    height: 800px;
+}
+
+.general_information {
+    margin: 0;
+    height: 50px;
+    background-color: #efad18;
+    color: white;
+    text-align: justify;
+    font-family: lato;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.general_information::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 0;
+}
+
+.general_information::after {
+    content: '';
+    width: 100%;
+    height: 0;
+    visibility: hidden;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.gen-inf__text {
+    display: inline-block;
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 15px;
+}
+
+.header__nav {
+    text-align: justify;
+}
+
+.header__nav::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 0;
+}
+
+.header__nav::after {
+    content: '';
+    width: 100%;
+    height: 0;
+    visibility: hidden;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.header__nav-logo,
+.header__nav-menu,
+.header__social-networks {
+    display: inline-block;
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 15px;
+}
+
+.menu-link {
+    text-decoration: none;
+    font-family: lato, sans-serif;
+    font-weight: bold;
+    color: #535353;
+}
+
+.header__banner-title {
+    color: #e7272d;
+    font-size: 20px;
+    font-family: 'Permanent Marker', cursive;
+    margin-left: 150px;
+}
+
+.header__banner-supertitle {
+    font-family: Rubik, sans-serif;
+    font-size: 63px;
+    color: white;
+    width: 600px;
+    margin-left: 150px;
+}
+
+.header__banner-text {
+    width: 500px;
+    font-family: lato, sans-serif;
+    font-weight: bold;
+    color: #535353;
+    margin-left: 150px;
+}
+
+.header__order-button {
+    font-family: lato, sans-serif;
+    font-weight: bold;
+    color: white;
+    margin-left: 150px;
+    background-color: #e7272d;
+}
+
+.header__details-call {
+    font-family: lato, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.header__details-number {
+    font-family: lato, sans-serif;
+    font-weight: bold;
+    color:black;
+}
+
+.header__order-button,
+.header__details-call,
+.header__details-number {
+    display: inline-block;
+}
