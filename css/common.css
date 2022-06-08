@@ -17,6 +17,7 @@
     font-weight: 400;
     margin:0 0 25px;
 }
+.section .slogan-text,
 .slogan-text{
     color:#4f5047;
     font-size:56px;
@@ -24,6 +25,7 @@
     font-weight: 700;
     margin:0 0 25px;
 }
+.section .promo-text,
 .promo-text {
     color:#4f5047;
     font-size:20px;

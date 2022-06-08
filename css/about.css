@@ -26,15 +26,16 @@
     float:right;
     width:49%;
 }
-.about__slogan-text,
-.ingredients__slogan-text {
+/*
+.section .about__slogan-text,
+.section .ingredients__slogan-text {
     color:#4f5047;
     font-size:56px;
     font-family:Rubik,sans-serif;
     font-weight: 700;
     margin:0 0 25px;
 }
-.about__promo-text,
+p.about__promo-text,
 .ingredients__promo-text {
     color:#4f5047;
     font-size:20px;
@@ -42,6 +43,7 @@
     margin:0 0 20px;
     font-weight: 700;
 }
+*/
 .about__post-listmenu {
     padding:0;
     margin:0;
