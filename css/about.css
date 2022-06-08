@@ -69,6 +69,7 @@ p.about__promo-text,
     display: inline-block;
     margin-right:10px;
     font-size:12px;
+    text-align:center;
 }
 .about__post-link-to-page .link-to-page {
     background-color: #e7272d;
