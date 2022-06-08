@@ -1,0 +1,27 @@
+.catering__request {
+    background-image: url(../img/hire_us_background_image.jpg);
+    background-size: cover;
+    background-position: center;
+    display:flex;
+    min-height: 620px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+}
+h2 {
+    font-family: 'Permanent Marker', cursive;
+    color: var(--text-color-h2);
+    text-align: center;
+}
+catering__request__form {
+    margin-left: 150px; 
+}
+fieldset {
+    width: 470px;
+    height: 620px;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    border-radius: 3%;
+}
