@@ -10,7 +10,7 @@
     justify-content: center;
     flex-direction: column;
 }
-h2 {
+h2.form_header {
     font-family: 'Permanent Marker', cursive;
     color: var(--text-color-h2);
     text-align: center;
