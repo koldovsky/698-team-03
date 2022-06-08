@@ -9,3 +9,11 @@
     font-size:20px;
     font-family: 'Permanent Marker', cursive;
 }
+section p {
+    color:#625961;
+    font-size:17px;
+    line-height: 1.5;
+    font-family: Lato,sans-serif;
+    font-weight: 400;
+    margin:0 0 25px;
+}
