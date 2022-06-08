@@ -26,24 +26,6 @@
     float:right;
     width:49%;
 }
-/*
-.section .about__slogan-text,
-.section .ingredients__slogan-text {
-    color:#4f5047;
-    font-size:56px;
-    font-family:Rubik,sans-serif;
-    font-weight: 700;
-    margin:0 0 25px;
-}
-p.about__promo-text,
-.ingredients__promo-text {
-    color:#4f5047;
-    font-size:20px;
-    font-family: Lato,sans-serif;
-    margin:0 0 20px;
-    font-weight: 700;
-}
-*/
 .about__post-listmenu {
     padding:0;
     margin:0;
