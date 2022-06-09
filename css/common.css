@@ -10,6 +10,9 @@
     --headline-font-family: 'Rubik', sans-serif;
     --subheadline-font-family: 'Lato', sans-serif;
     --subheadline-text-color: #454545;
+    --yellow-color: #fbbe36;
+    --grey-color: #676767;
+    --white-color: #ffffff;
 }
 * {
     margin: 0;
@@ -19,6 +22,7 @@
     color:#e7272d;
     font-size:20px;
     font-family: 'Permanent Marker', cursive;
+    margin:0 0 20px;
 }
 .section p {
     color:#625961;
@@ -44,4 +48,14 @@
     margin:0 0 20px;
     font-weight: 700;
 }
-
+/* -------------------- common style for min-width 320px ----------------- */
+@media(min-width:320px){
+    .section__heading {
+        font-size:16px;
+        line-height: 1.4;
+    }
+    .section .slogan-text,
+    .slogan-text{
+        font-size:38px;
+    }
+}

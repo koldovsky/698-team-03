@@ -39,7 +39,6 @@ fieldset {
     width: 100%;
     height: auto;
 }
-}
 .form__headline {
     text-align: center;
     font-family: var(--headline-font-family);
@@ -92,9 +91,89 @@ fieldset {
     background-image: url(../img/blog_background.jpg);
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
     min-height: 620px;
+    background-repeat: no-repeat;
+    
 }
 .blog__headline_info {
-padding-top: 90px;
+padding-top: 10px;
+width: 342px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+.blog__headline {
+    text-align: center;
+    font-family: var(--headline-font-family);
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.blog__subheadline {
+    text-align: center;
+    font-family: var(--subheadline-font-family);
+    font-size: 20px;
+    font-weight: 700;
+    color: #4f5047;
+    line-height: 30px;
+    margin-bottom: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.blog__flaunt__magazine__card, .blog__conde__card, .blog__c__magazine__card {
+    width: 342px;
+    height: auto;
+    padding: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.blog__image {
+    width: 342px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+.article__headline {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.article__headline__style {
+    color: var(--text-color-h2);
+    font-family: var(--subheadline-font-family);
+    font-size: 14px;
+    font-weight: 900;
+}
+.article__headline__date__style {
+    color: var(--yellow-color);
+    font-family: var(--subheadline-font-family);
+    font-size: 14px;
+    font-weight: 700;
+}
+.article__title {
+    font-family: var(--headline-font-family);
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.article__text {
+    font-family: var(--subheadline-font-family);
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: var(--grey-color);
+    line-height: 25.5px;   
+}
+.button__read__article {
+    background-color: var(--yellow-color);
+    color: var(--white-color);
+    text-decoration: none;
+    font-size: 16.5px;
+    font-weight: 700;
+    font-family: var(--subheadline-font-family);
+    padding: 15px 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
