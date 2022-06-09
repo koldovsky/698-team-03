@@ -69,3 +69,15 @@ fieldset {
     padding: 11px 22px;
     width: 250px;
 }
+.form__button {
+    border-radius: 20px;
+    background-color: var(--text-color-h2);
+    color: #ffffff;
+    width: 272px;
+    border: none;
+    margin-top: 30px;
+    padding: 11px 22px;
+    font-size: 15px;
+    font-family: var(--subheadline-font-family);
+    font-weight: 400;
+}
