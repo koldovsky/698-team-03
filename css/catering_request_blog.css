@@ -122,15 +122,12 @@ margin-right: auto;
 .blog__card {
     height: auto;
     padding: 25px;
-    display: grid;
-    grid-template-columns: 1fr 1f 1f;
-   }
+display: grid;}
 @media screen (max-width: 400;) {
     .blog__card__list {
         display: grid;
         grid-template-columns: 1fr;
-        gap: 5px;}
-}
+        gap: 5px;}}
 @media (min-width: 640px) {
     .blog__card__list {
         display: grid;
