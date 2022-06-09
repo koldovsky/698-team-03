@@ -1,11 +1,23 @@
 
 .contact_us_section-block {
     
-    min-height: 620px;
-    background-image:url(../img/contact_us_index_page_block_background.png) repeat-x;
+   
+    background-image:url(../img/contact_us_index_page_block_background.png);
     background-size: cover;
-    justify-content: center;
-    float:right;
+    background-position: center;
+    display:flex;
+    min-width: 620px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    align-items: left;
+    position: relative;
+    flex-direction: column;
+}
+
+.section__contact_us-top {
+    height: 96px;
+    background-image: url(../img/divider_top_contact_us_index_page.jpg);
+    background-size: cover;
 }
 
 /* .contact_us-section_index-page {
