@@ -1,7 +1,5 @@
 
-.contact_us_section-block {
-    
-   
+.section_contact_us-block {
     background-image:url(../img/contact_us_index_page_block_background.png);
     background-size: cover;
     background-position: center;
@@ -14,13 +12,15 @@
     flex-direction: column;
 }
 
-.section__contact_us-top {
+.section__contact_section__us-top {
     height: 96px;
     background-image: url(../img/divider_top_contact_us_index_page.jpg);
     background-size: cover;
 }
 
-/* .contact_us-section_index-page {
+
+/*
+.section_contact_us-main {
     background-image: url(../img/contact_us_index_page_block_background.png);
     background-size: cover;
     background-position: center;
@@ -30,16 +30,17 @@
     padding-bottom: 100px;
     align-items: left;
     justify-content: center;
-    flex-direction: column; */
+    flex-direction: column; 
 }
 
-/* .contact_us_index-page-blockTitle {
+
+.contact_us_section-blockTitle {
     display: block;
     text-align: left;
     color:#4f5047;
-    font-size:96px;
-    font-family:Rubik,sans-serif;
-    font-weight: 700;
-    margin:0 0 25px;
+    font-size: inherit;
+    font-family: Rubik,sans-serif;
+    margin-left: 20px;
     
-} */ 
+} 
+*/
