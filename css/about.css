@@ -1,4 +1,4 @@
-/* About Us section style */
+/* ------------- About Us section style for desktop version ---------- */
 .section__about,
 .section__ingredients {
     background: #fff;
@@ -11,20 +11,24 @@
     height:166px;
     background: url('../img/divider-2.svg') repeat-x;
 }
+
 .section__about-main {
     overflow: hidden;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    background-image: url(../img/bg-about_section.jpg);
+    background-size: cover;
 }
 .section__about-image {
-    float:left;
-    width:49%;
+    width:50%;
 }
 .section__about-image img {
     width:100%;
     vertical-align: middle;
 }
 .section__about-main .section__about-post {
-    float:right;
-    width:49%;
+    width:50%;
 }
 .about__post-listmenu {
     padding:0;
@@ -74,6 +78,23 @@
         background-color: #000;
     }
 }
+/* -------------------- About section style for min-width 320px ----------------- */
+@media(min-width:320px){
+    .section__about .section__about-top{
+        height:60px;
+        background-size: auto;
+    }
+    .section__about .section__about-bottom {
+        height:60px;
+        background-size: auto;
+    }
+    .section__about-main {
+        flex-direction:row;
+        background-image: none;
+        background-color: #fff;
+    }
+}
+/* -------------------- Ingredient section desktop version ---------------------- */
 .section__ingredients {
     overflow: hidden;
 }
