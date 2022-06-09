@@ -7,6 +7,9 @@
 :root {
     --text-color-h2: #e7272d;
     scroll-behavior: smooth;
+    --headline-font-family: 'Rubik', sans-serif;
+    --subheadline-font-family: 'Lato', sans-serif;
+    --subheadline-text-color: #454545;
 }
 * {
     margin: 0;

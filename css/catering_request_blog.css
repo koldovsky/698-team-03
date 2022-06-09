@@ -1,6 +1,6 @@
 .catering__request {
     background-image: url(../img/hire_us_background_image.jpg);
-    background-size: 100%;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     min-height: 620px;
@@ -12,21 +12,26 @@
     justify-content: center;
     flex-direction: column;
     */
-}
 h2.form_header {
     font-family: 'Permanent Marker', cursive;
     color: var(--text-color-h2);
     text-align: center;
+    font-weight: 400;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 16px;
 }
 catering__request__form {
     margin-left: 150px; 
 }
 fieldset {
-    width: 470px;
-    height: 620px;
+    width: 272px;
+    height: 600px;
     border: 1px solid #ffffff;
     background-color: #ffffff;
     border-radius: 3%;
+    padding-left: 35px;
+    padding-right: 35px;
 }
 .divider__hire__us__top {
     position: top;
@@ -37,4 +42,30 @@ fieldset {
     position: bottom;
     width: 100%;
     height: auto;
+}
+.form__headline {
+    text-align: center;
+    font-family: var(--headline-font-family);
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.form__subheadline {
+    text-align: center;
+    font-family: var(--subheadline-font-family);
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 25px;
+    line-height: 30px;
+    color: var(--subheadline-text-color);
+}
+.form__input__field {
+    border-radius: 20px;
+    background-color: #fbf7ed;
+    margin-bottom: 20px;
+    font-family: var(--subheadline-font-family);
+    border: none;
+    font-size: 15px;
+    padding: 11px 22px;
+    width: 250px;
 }
