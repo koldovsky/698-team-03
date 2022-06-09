@@ -19,6 +19,7 @@
     justify-content:center;
     background-image: url(../img/bg-about_section.jpg);
     background-size: cover;
+    padding:0 24px;
 }
 .section__about-image {
     width:50%;
@@ -89,7 +90,6 @@
         background-size: auto;
     }
     .section__about-main {
-        flex-direction:row;
         background-image: none;
         background-color: #fff;
     }
