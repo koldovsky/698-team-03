@@ -6,11 +6,13 @@
 /* heading for sections */
 :root {
     --text-color-h2: #e7272d;
+    --main-details-color: #e7272d;
     scroll-behavior: smooth;
     --headline-font-family: 'Rubik', sans-serif;
     --subheadline-font-family: 'Lato', sans-serif;
     --subheadline-text-color: #454545;
     --yellow-color: #fbbe36;
+    --main-bcgr-color: #fbbe36;
     --grey-color: #676767;
     --white-color: #ffffff;
     --permanent-marker-font: 'Permanent Marker', cursive;
@@ -49,6 +51,14 @@
     font-family: Lato,sans-serif;
     margin:0 0 20px;
     font-weight: 700;
+}
+
+.button {
+    text-align: center;
+    text-decoration: none;
+    font-family: var(--subheadline-font-family);
+    border-radius: 25px;
+    border: 0;
 }
 /* -------------------- common style for min-width 320px ----------------- */
 @media screen and (min-width:320px) and (max-width:640px){
