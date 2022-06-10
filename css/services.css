@@ -6,15 +6,11 @@ selector {
 */
 .section__services-text-promo {
     color: red;
-}
-.section__services-text-promo { 
-font-family: "Permanent Marker", cursive;
-}
+    font-family: "Permanent Marker", cursive;
+ }
 .services-slogan-text {
 color: black;
 font-family: Rubik, sans-serif;
-}
-.services-slogan-text { 
-    font-size:38px
-}
+font-size:38px
+ }
 
