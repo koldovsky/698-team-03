@@ -1,6 +1,6 @@
 .header {
     background-color: #fcbe37;
-    background-image: url(/img/cover.jpg);
+    background-image: url(../img/cover.jpg);
     background-size: cover;
 }
 
@@ -118,6 +118,7 @@
         align-items: center;
         justify-content: center;
         display: flex;
+        vertical-align: top;
     }
 
     .general__information__mobile {
@@ -161,6 +162,9 @@
         margin-top: 15px;
     }
 
+    .header__nav-logo {
+        padding: 0px;
+    }
     .menu-link {
         text-decoration: none;
         font-family: lato, sans-serif;
@@ -218,7 +222,7 @@
     align-items: center;
     justify-content: center;
     display: flex;
-    padding-bottom: 50px;
+    padding-bottom: 90px;
 }
 
 .hd__container {
@@ -231,7 +235,10 @@
     margin-right: 30px;
     margin-top: 30px;
     display: flex;
+}
 
+.hd__subitem {
+    margin-right: 13px;
 }
 
 .header__order-button {
