@@ -13,6 +13,8 @@
     --yellow-color: #fbbe36;
     --grey-color: #676767;
     --white-color: #ffffff;
+    --permanent-marker-font: 'Permanent Marker', cursive;
+    --shade-of-white-background-color: #fbf7ed;
 }
 * {
     margin: 0;
