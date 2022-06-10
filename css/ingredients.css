@@ -1,10 +1,8 @@
 /* -------------------- Ingredient section desktop version ---------------------- */
 .section__ingredients {
-    max-width:1200px;
     display:flex;
     flex-direction:row;
     justify-content:center;
-    margin:auto;
     overflow:hidden;
 }
 .section__ingredients .section__ingredients-image {
@@ -15,8 +13,10 @@
     vertical-align: middle;
 }
 .section__ingredients .section__ingredients-post {
-    
     width:50%;
+}
+.ingredients-post-holder {
+    padding: 0 45px;
 }
 .ingredients__post-list {
     flex-direction: column;
@@ -29,6 +29,9 @@
     }
     .section__ingredients .section__ingredients-post {
         width:100%;
+    }
+    .ingredients-post-holder {
+        padding: 0 15px;
     }
     .section__ingredients-image {
         width:100%;
