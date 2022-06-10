@@ -4,15 +4,13 @@
     background-position: center;
     background-repeat: no-repeat;
     min-height: 620px;
-    
 }
- /*   display:flex;
-        align-items: left;
-    justify-content: center;
-    flex-direction: column;
-    */
+@media (max-width: 400px) {
+    .catering__request {
+        background-position: left;   
+}}
 h2.form_header {
-    font-family: 'Permanent Marker', cursive;
+    font-family: var(--permanent-marker-font);
     color: var(--text-color-h2);
     text-align: center;
     font-weight: 400;
@@ -20,24 +18,45 @@ h2.form_header {
     padding-bottom: 20px;
     font-size: 16px;
 }
-catering__request__form {
+.catering__request__form {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 fieldset {
-    width: 272px;
     height: auto;
-    border: 1px solid #ffffff;
-    background-color: #ffffff;
+    border: 1px solid var(--white-color);
+    background-color: var(--white-color);
     border-radius: 3%;
     padding-left: 35px;
     padding-right: 35px;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin: 100px 20px;
+    max-width: 300px;
 }
-.divider__hire__us__top, .divider__hire__us__bottom {
-    position: top;
-    width: 100%;
-    height: auto;
+@media (min-width: 900px) {
+    .catering__request__form { 
+        align-items: flex-start;
+        justify-content: center;}
+    fieldset {
+        padding-left: 50px;
+        padding-right: 50px;
+}}
+.divider__hire__us__top {
+    background-image: url(../img/divider_hire_us_top.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 20px;
+}
+.divider__hire__us__bottom {
+    background-image: url(../img/divider_hire_us_bottom.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 20px;
 }
 .form__headline {
     text-align: center;
@@ -57,7 +76,7 @@ fieldset {
 }
 .form__input__field {
     border-radius: 20px;
-    background-color: #fbf7ed;
+    background-color: var(--shade-of-white-background-color);
     margin-bottom: 20px;
     font-family: var(--subheadline-font-family);
     border: none;
@@ -69,7 +88,7 @@ fieldset {
     display: inline-block;
     border-radius: 20px;
     background-color: var(--text-color-h2);
-    color: #ffffff;
+    color: var(--white-color);
     width: 100%;
     border: none;
     margin-top: 30px;
@@ -79,27 +98,18 @@ fieldset {
     font-weight: 400;
     margin-bottom: 30px;
 }
-@media screen and (max-width: 400px) {
-    fieldset {  
-        display: block;
-        margin-left: auto;
-        margin-right: auto;}
-    .catering__request {
-        background-position: left;   
-}}
 .blog {
     background-image: url(../img/blog_background.jpg);
     background-size: cover;
     background-position: center;
     min-height: 620px;
     background-repeat: no-repeat;
-    
 }
 .blog__headline_info {
-padding-top: 10px;
-display: block;
-margin-left: auto;
-margin-right: auto;
+    padding-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .blog__headline {
     text-align: center;
@@ -122,22 +132,24 @@ margin-right: auto;
 .blog__card {
     height: auto;
     padding: 25px;
-display: grid;}
-@media screen (max-width: 400;) {
+    display: grid;
+}
+@media (max-width: 400;) {
     .blog__card__list {
         display: grid;
         grid-template-columns: 1fr;
-        gap: 5px;}}
+        gap: 5px;
+}}
 @media (min-width: 640px) {
     .blog__card__list {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 5px;
-    }}
+}}
 @media (min-width: 810px) {
     .blog__card__list {
         grid-template-columns: 1fr 1fr 1fr;
-    }}
+}}
 .blog__image {
     width: 100%;
     height: auto;
