@@ -11,15 +11,18 @@
     height:166px;
     background: url('../img/divider-2.svg') repeat-x;
 }
-
-.section__about-main {
+.section__about-holder {
     overflow: hidden;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
     background-image: url(../img/bg-about_section.jpg);
     background-size: cover;
     padding:0 24px;
+}
+.section__about-main {
+    max-width:1200px;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    margin:auto;
 }
 .section__about-image {
     width:50%;
@@ -94,7 +97,7 @@
         height:60px;
         background-size: cover;
     }
-    .section__about-main {
+    .section__about-holder {
         background-image: none;
         background-color: #fff;
     }

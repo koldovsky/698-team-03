@@ -49,7 +49,7 @@
     font-weight: 700;
 }
 /* -------------------- common style for min-width 320px ----------------- */
-@media(min-width:320px){
+@media screen and (min-width:320px) and (max-width:640px){
     .section__heading {
         font-size:16px;
         line-height: 1.4;
