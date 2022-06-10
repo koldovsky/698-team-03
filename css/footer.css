@@ -152,9 +152,10 @@ footer {
     flex: 1;
 }
 
-.footer__rights-text {
+.footer__rights {
     display: flex;
-    display: inline-block;
+    flex-direction: row;
+    justify-content: space-between;
 }
 }
 
