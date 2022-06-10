@@ -1,0 +1,36 @@
+/* -------------------- Ingredient section desktop version ---------------------- */
+.section__ingredients {
+    max-width:1200px;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    margin:auto;
+    overflow:hidden;
+}
+.section__ingredients .section__ingredients-image {
+    width:50%;
+}
+.section__ingredients .section__ingredients-image img {
+    width:100%;
+    vertical-align: middle;
+}
+.section__ingredients .section__ingredients-post {
+    
+    width:50%;
+}
+.ingredients__post-list {
+    flex-direction: column;
+}
+
+/* -------------------- About section style for min-width 320px ----------------- */
+@media screen and (min-width:320px) and (max-width:640px){
+    .section__ingredients {
+        flex-direction: column;
+    }
+    .section__ingredients .section__ingredients-post {
+        width:100%;
+    }
+    .section__ingredients-image {
+        width:100%;
+    }
+}
