@@ -1,0 +1,12 @@
+/*
+selector {
+    property: value;
+    another-property: value;
+}
+*/
+.section__services-text-promo {
+    color: red;
+}
+.section__services-text-promo { 
+font-family: "Permanent Marker", cursive;
+}
