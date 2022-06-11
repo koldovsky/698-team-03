@@ -2,89 +2,103 @@
 .section__about,
 .section__ingredients {
     background: var(--white-color);
-} 
-.section__about .section__about-top{
-    height:96px;
+}
+
+.section__about .section__about-top {
+    height: 96px;
     background: url('../img/divider-1.svg') repeat-x;
 }
+
 .section__about .section__about-bottom {
-    height:166px;
+    height: 166px;
     background: url('../img/divider-2.svg') repeat-x;
 }
+
 .section__about-holder {
     overflow: hidden;
     background-image: url(../img/bg-about_section.jpg);
     background-size: cover;
-    padding:0 24px;
+    padding: 0 24px;
 }
+
 .section__about-main {
-    max-width:1200px;
-    display:grid;
+    max-width: 1200px;
+    display: grid;
     grid-template-columns: 1fr 1fr;
-    justify-content:center;
-    margin:auto;
-    padding:100px 0;
+    justify-content: center;
+    margin: auto;
+    padding: 100px 0;
 }
+
 .section__about-image {
-    width:50%;
+    width: 50%;
 }
+
 .section__about-image img {
-    width:100%;
+    width: 100%;
     vertical-align: middle;
 }
+
 .section__about-main .section__about-post {
-    width:50%;
+    width: 50%;
 }
+
 .section__about-main .section__about-post .slogan-text,
-.section__ingredients .section__ingredients-post .slogan-text  {
-    color:var(--slogan-text-color);
+.section__ingredients .section__ingredients-post .slogan-text {
+    color: var(--slogan-text-color);
 }
+
 .about__post-listmenu,
 .ingredients__post-list {
-    padding:0;
-    margin:0 0 20px;
-    overflow:hidden;
-    display:flex;
-    flex-wrap:wrap;
+    padding: 0;
+    margin: 0 0 20px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
 }
+
 .about__post-listmenu p,
 .ingredients__post-list p {
-    margin:0 0 16px;
+    margin: 0 0 16px;
     padding: 0 30px 0 0;
 }
+
 .about__post-listmenu p span,
 .ingredients__post-list p span {
     color: #625961;
     font-family: var(--subheadline-font-family);
-    font-size:17px;
+    font-size: 17px;
 }
+
 /* ------------ yellow bullet on list items in sections About and Ingredients ------------ */
 .about__post-listmenu p span::before,
 .ingredients__post-list p span::before {
-    width:20px;
-    height:18px;
-    padding-top:2px;
+    width: 20px;
+    height: 18px;
+    padding-top: 2px;
     background-color: var(--main-bcgr-color);
-    color:var(--white-color);
+    color: var(--white-color);
     border-radius: 50%;
     content: "✔";
     display: inline-block;
-    margin-right:10px;
-    font-size:12px;
-    text-align:center;
+    margin-right: 10px;
+    font-size: 12px;
+    text-align: center;
 }
+
 .about__post-link-to-page .link-to-page {
     background-color: var(--main-details-color);
-    color:var(--white-color);
+    color: var(--white-color);
     text-decoration: none;
-    font-size:16px;
+    font-size: 16px;
     line-height: 1.2em;
     font-weight: 700;
     font-family: var(--subheadline-font-family);
     border-radius: 25px;
-    padding:16px 28px;
-    display:inline-block;
+    padding: 16px 28px;
+    display: inline-block;
 }
+
 /* ------------- animation color on hover state on link More About --------------- */
 .about__post-link-to-page .link-to-page:hover,
 .header__order-button:hover {
@@ -92,69 +106,88 @@
     animation-duration: 500ms;
     animation-fill-mode: forwards;
 }
+
 @keyframes background-color {
     100% {
         background-color: #000;
     }
 }
+
 /* -------------------- About section style for min-width 400px ----------------- */
-@media screen and (min-width:400px){
-    .section__about .section__about-top{
-        height:60px;
+@media screen and (min-width:400px) {
+    .section__about .section__about-top {
+        height: 60px;
         background-size: cover;
     }
+
     .section__about .section__about-bottom {
-        height:60px;
+        height: 60px;
         background-size: cover;
     }
+
     .section__about-holder {
         background-image: none;
         background-color: var(--white-color);
     }
+
     .section__about-main {
-      grid-template-columns: 1fr;
-      padding:90px 0;
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 90px 0;
     }
+
     .section__about-main .section__about-post {
-        width:100%;
+        width: 100%;
     }
+
     .section__about-image {
-        width:100%;
+        width: 100%;
     }
 }
+
 /* -------------------- About section style for min-width 640px ----------------- */
-@media screen and (min-width:640px){
-    .section__about .section__about-top{
-        height:60px;
+@media screen and (min-width:640px) {
+    .section__about .section__about-top {
+        height: 60px;
         background-size: cover;
     }
+
     .section__about .section__about-bottom {
-        height:60px;
+        height: 60px;
         background-size: cover;
     }
+
     .section__about-holder {
         background-image: none;
         background-color: var(--white-color);
     }
+
     .section__about-main {
-      grid-template-columns: 1fr;
+        display:grid;
+        grid-template-columns: 1fr;
     }
+
     .section__about-main .section__about-post {
-        width:100%;
+        width: 100%;
     }
+
     .section__about-image {
-        width:100%;
+        width: 100%;
     }
 }
+
 /* -------------------- About section style for min-width 810px ----------------- */
-@media screen and (min-width:810px){
+@media screen and (min-width:810px) {
     .section__about-main {
-      grid-template-columns: 1fr 1fr;
+        display:grid;
+        grid-template-columns: 1fr 1fr;
     }
+
     .section__about-main .section__about-post {
-        width:100%;
+        width: 100%;
     }
+
     .section__about-image {
-        width:100%;
+        width: 100%;
     }
 }

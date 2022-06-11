@@ -6,14 +6,14 @@
     overflow:hidden;
 }
 .section__ingredients .section__ingredients-image {
-    width:50%;
+    width:100%;
 }
 .section__ingredients .section__ingredients-image img {
     width:100%;
     vertical-align: middle;
 }
 .section__ingredients .section__ingredients-post {
-    width:50%;
+    width:100%;
 }
 .ingredients-post-holder {
     padding: 0 45px;
@@ -25,6 +25,7 @@
 /* -------------------- About section style for min-width 400px ----------------- */
 @media screen and (min-width:400px){
     .section__ingredients {
+        display:grid;
         grid-template-columns: 1fr;
     }
     .section__ingredients .section__ingredients-post {
@@ -40,6 +41,7 @@
 /* -------------------- About section style for min-width 810px ----------------- */
 @media screen and (min-width:810px){
     .section__ingredients {
+        display:grid;
         grid-template-columns: 1fr 1fr;
     }
     .section__ingredients .section__ingredients-post {
