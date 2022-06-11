@@ -11,7 +11,7 @@
     --headline-font-family: 'Rubik', sans-serif;
     --subheadline-font-family: 'Lato', sans-serif;
     --subheadline-text-color: #454545;
-    --yellow-color: #fbbe36;
+    --read-article-button-bgr-color: #fbbe36;
     --main-bcgr-color: #fbbe36;
     --grey-color: #676767;
     --list-items-color:rgb(69,69,69);
@@ -19,8 +19,9 @@
     --slogan-text-color:#282623;
     --promo-text-color:#4f5047;
     --paragraph-text-color:#625961;
+    --button-text-color: #ffffff;
     --permanent-marker-font: 'Permanent Marker', cursive;
-    --shade-of-white-background-color: #fbf7ed;
+    --form-input-field-background-color: #fbf7ed;
 }
 * {
     margin: 0;
