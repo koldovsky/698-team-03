@@ -22,8 +22,8 @@
     flex-direction: column;
 }
 
-/* -------------------- About section style for min-width 320px ----------------- */
-@media screen and (min-width:320px) and (max-width:640px){
+/* -------------------- About section style for min-width 400px ----------------- */
+@media screen and (min-width:400px){
     .section__ingredients {
         flex-direction: column;
     }

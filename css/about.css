@@ -1,7 +1,7 @@
 /* ------------- About Us section style for desktop version ---------- */
 .section__about,
 .section__ingredients {
-    background: #fff;
+    background: var(--white-color);
 } 
 .section__about .section__about-top{
     height:96px;
@@ -37,7 +37,7 @@
 }
 .section__about-main .section__about-post .slogan-text,
 .section__ingredients .section__ingredients-post .slogan-text  {
-    color:#282623;
+    color:var(--slogan-text-color);
 }
 .about__post-listmenu,
 .ingredients__post-list {
@@ -54,15 +54,15 @@
 .about__post-listmenu p span,
 .ingredients__post-list p span {
     color: #625961;
-    font-family: Lato, sans-serif;
+    font-family: var(--subheadline-font-family);
     font-size:17px;
 }
 .about__post-listmenu p span::before,
 .ingredients__post-list p span::before {
     width:20px;
     height:20px;
-    background-color: #fcbe37;
-    color:#fff;
+    background-color: var(--main-bcgr-color);
+    color:var(--white-color);
     border-radius: 50%;
     content: "✔";
     display: inline-block;
@@ -71,12 +71,12 @@
     text-align:center;
 }
 .about__post-link-to-page .link-to-page {
-    background-color: #e7272d;
-    color:#fff;
+    background-color: var(--main-details-color);
+    color:var(--white-color);
     text-decoration: none;
     font-size:16px;
     line-height: 1.2em;
-    font-family: Lato, sans-serif;
+    font-family: var(--subheadline-font-family);
     border-radius: 25px;
     padding:16px 28px;
     display:inline-block;
@@ -91,8 +91,8 @@
         background-color: #000;
     }
 }
-/* -------------------- About section style for min-width 320px ----------------- */
-@media screen and (min-width:320px) and (max-width:640px){
+/* -------------------- About section style for min-width 400px ----------------- */
+@media screen and (min-width:400px){
     .section__about .section__about-top{
         height:60px;
         background-size: cover;
@@ -103,7 +103,7 @@
     }
     .section__about-holder {
         background-image: none;
-        background-color: #fff;
+        background-color: var(--white-color);
     }
     .section__about-main {
         flex-direction: column;
