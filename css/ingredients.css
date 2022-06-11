@@ -1,7 +1,7 @@
 /* -------------------- Ingredient section desktop version ---------------------- */
 .section__ingredients {
-    display:flex;
-    flex-direction:row;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
     justify-content:center;
     overflow:hidden;
 }
@@ -25,7 +25,7 @@
 /* -------------------- About section style for min-width 400px ----------------- */
 @media screen and (min-width:400px){
     .section__ingredients {
-        flex-direction: column;
+        grid-template-columns: 1fr;
     }
     .section__ingredients .section__ingredients-post {
         width:100%;
