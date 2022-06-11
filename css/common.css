@@ -74,5 +74,18 @@
     .section .slogan-text,
     .slogan-text{
         font-size:38px;
+        line-height: 1.1;
+    }
+}
+/* -------------------- common style for min-width 810px ----------------- */
+@media screen and (min-width:810px){
+    .section__heading {
+        font-size:18px;
+        line-height: 1.4;
+    }
+    .section .slogan-text,
+    .slogan-text{
+        font-size:47px;
+        line-height: 1.2;
     }
 }

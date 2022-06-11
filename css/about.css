@@ -49,7 +49,7 @@
 }
 .about__post-listmenu p,
 .ingredients__post-list p {
-    margin:0;
+    margin:0 0 16px;
     padding: 0 30px 0 0;
 }
 .about__post-listmenu p span,
@@ -62,7 +62,8 @@
 .about__post-listmenu p span::before,
 .ingredients__post-list p span::before {
     width:20px;
-    height:20px;
+    height:18px;
+    padding-top:2px;
     background-color: var(--main-bcgr-color);
     color:var(--white-color);
     border-radius: 50%;
@@ -78,13 +79,15 @@
     text-decoration: none;
     font-size:16px;
     line-height: 1.2em;
+    font-weight: 700;
     font-family: var(--subheadline-font-family);
     border-radius: 25px;
     padding:16px 28px;
     display:inline-block;
 }
 /* ------------- animation color on hover state on link More About --------------- */
-.about__post-link-to-page .link-to-page:hover {
+.about__post-link-to-page .link-to-page:hover,
+.header__order-button:hover {
     animation-name: background-color;
     animation-duration: 500ms;
     animation-fill-mode: forwards;
@@ -110,6 +113,43 @@
     }
     .section__about-main {
       grid-template-columns: 1fr;
+      padding:90px 0;
+    }
+    .section__about-main .section__about-post {
+        width:100%;
+    }
+    .section__about-image {
+        width:100%;
+    }
+}
+/* -------------------- About section style for min-width 640px ----------------- */
+@media screen and (min-width:640px){
+    .section__about .section__about-top{
+        height:60px;
+        background-size: cover;
+    }
+    .section__about .section__about-bottom {
+        height:60px;
+        background-size: cover;
+    }
+    .section__about-holder {
+        background-image: none;
+        background-color: var(--white-color);
+    }
+    .section__about-main {
+      grid-template-columns: 1fr;
+    }
+    .section__about-main .section__about-post {
+        width:100%;
+    }
+    .section__about-image {
+        width:100%;
+    }
+}
+/* -------------------- About section style for min-width 810px ----------------- */
+@media screen and (min-width:810px){
+    .section__about-main {
+      grid-template-columns: 1fr 1fr;
     }
     .section__about-main .section__about-post {
         width:100%;
