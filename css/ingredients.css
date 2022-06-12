@@ -36,6 +36,7 @@
     .section__ingredients {
         display:grid;
         grid-template-columns: 1fr;
+        padding:30px 0;
     }
     .section__ingredients .section__ingredients-post {
         width:100%;
@@ -52,6 +53,7 @@
     .section__ingredients {
         display:grid;
         grid-template-columns: 1fr 1fr;
+        padding:30px 0;
     }
     .section__ingredients .section__ingredients-post {
         width:100%;
@@ -61,6 +63,7 @@
     }
     .section__ingredients-image {
         width:100%;
+        margin:-30px 0;
         
     }
 }
