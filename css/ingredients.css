@@ -4,9 +4,11 @@
     grid-template-columns: 1fr 1fr;
     justify-content:center;
     overflow:hidden;
+    padding:30px 0;
 }
 .section__ingredients .section__ingredients-image {
     width:100%;
+    margin:-30px 0;
 }
 .section__ingredients .section__ingredients-image img {
     width:100%;
@@ -19,7 +21,14 @@
     padding: 0 45px;
 }
 .ingredients__post-list {
+    display: flex;
     flex-direction: column;
+}
+.ingredients__post-list p {
+    padding:0 30px;
+}
+.ingredients__post-list p span::before {
+    margin:0 10px 0 -30px;
 }
 
 /* -------------------- About section style for min-width 400px ----------------- */
@@ -52,5 +61,6 @@
     }
     .section__ingredients-image {
         width:100%;
+        
     }
 }
