@@ -6,12 +6,12 @@
 
 .section__about .section__about-top {
     height: 96px;
-    background: url('../img/divider-1.svg') repeat-x;
+    background: var(--main-bcgr-color) url('../img/divider-1.svg') repeat-x;
 }
 
 .section__about .section__about-bottom {
     height: 166px;
-    background: url('../img/divider-2.svg') repeat-x;
+    background: var(--bg-color-burgers) url('../img/divider-2.svg') repeat-x;
 }
 
 .section__about-holder {
@@ -182,7 +182,15 @@
         display:grid;
         grid-template-columns: 1fr 1fr;
     }
+    .section__about .section__about-top {
+        height: 96px;
+        background-size: cover;
+    }
 
+    .section__about .section__about-bottom {
+        height: 166px;
+        background-size: cover;
+    }
     .section__about-main .section__about-post {
         width: 100%;
     }
