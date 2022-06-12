@@ -255,8 +255,23 @@
     font-weight: bold;
     color: black;
 }
-/* ============== Header gor About Us page ===================== */
+/* ============== Header for About Us page ===================== */
 .header__about-page {
     background-color: var(--main-bcgr-color);
     background-image: none;
+}
+.header__about-page .header__banner {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom:80px;
+}
+.header__about-page .header__banner-holder {
+    display:flex;
+    flex-direction: column;
+}
+.header__about-page .header__banner-text {
+    color: var(--white-color);
+    font-size:20px;
+    line-height: 1.5;
+    font-weight: 700;
 }
