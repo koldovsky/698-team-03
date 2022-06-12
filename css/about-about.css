@@ -1,0 +1,192 @@
+.page__about-main {
+    padding: 0;
+    margin: 0;
+}
+/* ========== Section About =========== */
+.page__about-main .section__about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.page__about-main .section__about .section__about-image {
+    width:100%;
+}
+.page__about-main .section__about .section__about-image img {
+    width:100%;
+}
+.page__about-main .section__about .section__about-main {
+    width:100%;
+}
+.page__about-main .section__about .section__about-post {
+    padding: 70px 30px;
+}
+
+/* ========= Section Team ======== */
+.page__about-main .about__section-team {
+    background-color: var(--bg-color-burgers);
+    background-image: url('../img/divider-4.svg') repeat-x;
+    background-position: bottom;
+    background-size: cover;
+    padding: 0 0 50px;
+}
+.page__about-main .about__section-team-container {
+    display:flex;
+    flex-direction:row;
+}
+.page__about-main .about__section-team-container .about__team-post {
+    align-self:flex-start;
+}
+/* ========= Section Team - Carousel ======== */
+.about__team-carusel-holder {
+    position:relative;
+    margin:0 15px;
+    align-self:flex-start;
+}
+.about__team-carusel-holder .team-prev-btn,
+.about__team-carusel-holder .team-next-btn  {
+    position: absolute;
+    left:-8px;
+    top:50%;
+    background-color: var(--main-bcgr-color);
+    color: var(--white-color);
+    padding:2px 5px;
+    border-radius: 50%;
+}
+.about__team-carusel-holder .team-next-btn {
+    left:auto;
+    right:-8px;
+}
+.about__team-carusel-holder .team-prev-btn a,
+.about__team-carusel-holder .team-next-btn a {
+    color: var(--white-color);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.page__about-main .about__section-team-container .about__team-carusel {
+    flex-grow: 3;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap:10px;
+    
+}
+/* ========= Section Team - Carousel - Items =========== */
+.about__team-carusel .about__team-carusel-item {
+    overflow:hidden;
+    display: flex;
+    flex-direction: column;
+}
+.about__team-carusel .about__team-carusel-item .team-img-holder {
+    border-radius: 6px;
+    overflow:hidden;
+    margin:0 0 20px;
+}
+.about__team-carusel .about__team-carusel-item img {
+    width:100%;
+    display: block;
+}
+.about__team-carusel .about__team-carusel-item .team-info {
+    display: flex;
+    flex-direction: column;
+}
+.about__team-carusel .about__team-carusel-item .team-info .team-name {
+    font-size:23px;
+    line-height: 1.2;
+    font-family: var(--subheadline-font-family);
+    color: var(--promo-text-color);
+}
+.about__team-carusel .about__team-carusel-item .team-info .team-role {
+    font-size:17px;
+    line-height: 1.5;
+    font-family: var(--subheadline-font-family);
+    color: var(--paragraph-text-color);
+    font-weight: 400;
+}
+
+/* ========= Styles for screen size 400 =========== */
+@media screen and (min-width:400px){
+    /* about section */
+    .page__about-main .section__about {
+        display: grid;
+        grid-template-columns: 1fr;
+       
+    }
+    /* team section */
+    .page__about-main .about__section-team-container {
+        display:flex;
+        flex-direction:column;
+        padding:30px;
+    }
+    .page__about-main .about__section-team-container .about__team-carusel {
+        flex-grow: 3;
+        display:grid;
+        grid-template-columns: 1fr;
+        
+    }
+}
+/* ========= Styles for screen size 640 =========== */
+@media screen and (min-width:640px){
+     /* about section */
+    .page__about-main .section__about {
+        display: grid;
+        grid-template-columns: 1fr;
+       
+    }
+    /* team section */
+    .page__about-main .about__section-team-container {
+        display:flex;
+        flex-direction:column;
+    }
+    .page__about-main .about__section-team-container .about__team-carusel {
+        flex-grow: 3;
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        
+    }
+}
+/* ========= Styles for screen size 810 =========== */
+@media screen and (min-width:810px){
+    /* about section */
+    .page__about-main .section__about {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+       
+    }
+    /* team section */
+    .page__about-main .about__section-team-container {
+        display:flex;
+        flex-direction:column;
+    }
+    .page__about-main .about__section-team-container .about__team-carusel {
+        flex-grow: 3;
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        
+    }
+}
+/* ========= Styles for screen size 990 =========== */
+@media screen and (min-width:990px){
+    /* about section */
+    .page__about-main .section__about {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+       
+    }
+    /* team section */
+    .page__about-main .about__section-team-container {
+        display:flex;
+        flex-direction:row;
+    }
+    .page__about-main .about__section-team-container .about__team-post {
+        flex-grow:1;
+        margin: 0 30px 0 0;
+    }
+    .page__about-main .about__section-team-container .about__team-carusel {
+        flex-grow: 3;
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        
+    }
+    .about__team-carusel .about__team-carusel-item {
+        max-width: 100%;
+    }
+}

@@ -56,6 +56,7 @@
 .promo-text {
     color:var(--promo-text-color);
     font-size:20px;
+    line-height: 1.5;
     font-family: var(--subheadline-font-family);
     margin:0 0 20px;
     font-weight: 700;
