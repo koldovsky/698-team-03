@@ -1,44 +1,173 @@
 .section__contact_section__us-top {
     background-image: url(../img/divider_top_contact_us_index_page.jpg);
     background-size: cover;
-    height: 96px;
+    background-repeat: no-repeat;
+    width: 1457.6px;
+    height: 69px;
+    margin: 0;
+    vertical-align: baseline;
+    overflow: hidden;
 }
 
 .section_contact_us-block {
     background-image: url(../img/contact_us_index_page_block_background.png);
     background-size: cover;
-    background-position: center;
+    background-repeat: no-repeat;
+    width: 1457.6px;
+    height: 464px;
+    margin: 0;
+    padding: 100px 0px 50px 0px;
+    overflow: hidden;
+}
+
+.section_contact_us-container {
     display: flex;
-    width: 100%;
-    height: 500px;
-    margin: auto;
-    padding: 10px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 1200px;
+    height: 314px;
+    margin: 0 -15px;
+    padding: 0;
     position: inherit;
-    flex-direction: column;
-    font-family: Lato, sans-serif;
-    letter-spacing: 1px;
-    padding-top: 10px;
-    display: inline;
-    float: left;
-    box-sizing: border-box;
 }
 
-.section_contact_us-main_left {
-    display: block;
-    margin: auto;
-    padding: 10px 25px;
-    text-align: left;
-    float: left;
-    box-sizing: border-box;
-    width: 50%;
+/*=====left block=====*/
+
+.section_contact_us-left {
+    width: 770px;
+    height: 314px;
+    margin: 0;
+    padding: 0 15px;
+    border: 0;
 }
 
-.section_contact_us-main_right {
+.section_contact_us-left_blockTitle {
+    font-size: 56px;
+    line-height: 1.1;
+    font-family: var(--headline-font-family);
+    color: var(--white-color);
     display: block;
-    margin: auto;
-    padding: 10px 25px;
     text-align: left;
-    float: left;
-    box-sizing: border-box;
-    width: 50%;
+    width: 770px;
+    height: 61.6px;
+    margin: 0;
+    padding: 0 15px;
+    letter-spacing: 0;
+    align-content: space-around;
+}
+
+.section_contact_us-left_subtitle {
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: var(--subheadline-font-family);
+    color: var(--white-color);
+    display: block;
+    text-align: left;
+    width: 770px;
+    height: 30px;
+    margin: 25px 0px 0px 0px;
+    padding: 0 15px;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: 0;
+    text-transform: none;
+    position: relative;
+}
+
+.section_contact_us-left_description {
+    font-size: 17px;
+    line-height: 1.5;
+    font-family: var(--subheadline-font-family);
+    color: var(--article-text-color);
+    display: block;
+    text-align: left;
+    width: 770px;
+    height: 76.5px;
+    margin: 25px 0px 0px 0px;
+    padding: 0 15px;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: 0;
+    text-transform: none;
+    position: relative;
+}
+
+/*====button====*/
+
+.section_contact_us-left_button-box {
+    width: 770px;
+    height: 51.8px;
+    margin: 40px 0px 0px 0px;
+    padding: 0;
+}
+
+.section_contact_us-left_button_content {
+    color: var(--white-color);
+    font-family: var(--subheadline-font-family);
+    font-size: 16.5px;
+    width: 86.81px;
+    height: 19.8px;
+    line-height: 1.2em;
+}
+
+.section_contact_us-left_button {
+    background-color: var(--read-article-button-bgr-color);
+    color: var(--button-text-color);
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 1px;
+    border-width: 1px;
+    border-radius: 25px;
+    display: inline-block;
+    width: 140.812px;
+    height: 49.8px;
+    padding: 16px 28px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.section_contact_us-left_button:hover {
+    background-color: var(--white-color);
+    color: var(--button-background-color-on-hover);
+}
+
+/*=====right block=====*/
+
+.section_contact_us-right {
+    width: 369.987px;
+    height: 314px;
+    margin: 0;
+    padding: 0 15px;
+    border: 0;
+}
+
+.section_contact_us-right-box {
+    width: 369.987px;
+    height: 66.5px;
+    margin: 0px 0px 16px 0px;
+    padding: 0;
+    border: 0;
+}
+
+.section_contact_us-right_title {
+    font-size: 30px;
+    font-family: var(--headline-font-family);
+    color: var(--white-color);
+    width: 369.987px;
+    height: 36px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.section_contact_us-right_description {
+    font-size: 17px;
+    font-family: var(--subheadline-font-family);
+    color: #7e7e7c;
+    width: 369.987px;
+    height: 25.5px;
+    margin: 5px 0px 0px 0px;
+    padding: 0;
+    border: 0;
 }
