@@ -275,7 +275,7 @@
     background-color: var(--main-bcgr-color);
     background-image: none;
 }
-.header__about-page .header__banner {
+.header__banner-container {
     display: flex;
     flex-wrap: wrap;
     padding-bottom:80px;
