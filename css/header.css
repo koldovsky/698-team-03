@@ -252,3 +252,8 @@
     font-weight: bold;
     color: black;
 }
+/* ============== Header gor About Us page ===================== */
+.header__about-page {
+    background-color: var(--main-bcgr-color);
+    background-image: none;
+}
