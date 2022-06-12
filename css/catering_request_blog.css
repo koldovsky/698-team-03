@@ -9,7 +9,7 @@
     .catering__request {
         background-position: left;   
 }}
-h2.form_header {
+h2.form__header {
     font-family: var(--permanent-marker-font);
     color: var(--text-color-h2);
     text-align: center;
@@ -83,6 +83,11 @@ fieldset {
     font-size: 15px;
     width: 83%;
     padding: 11px 22px;
+    cursor: text;
+}
+.form__input__field:focus {
+    border: 2px solid var(--input-field-focus-border-color);
+    outline: none;
 }
 .form__button {
     display: inline-block;
@@ -97,6 +102,10 @@ fieldset {
     font-family: var(--subheadline-font-family);
     font-weight: 400;
     margin-bottom: 30px;
+    cursor: pointer;
+}
+.form__button:hover {
+    background-color: var(--button-background-color-on-hover);
 }
 .blog {
     background-image: url(../img/blog_background.jpg);
@@ -199,4 +208,8 @@ fieldset {
     display: inline-block;
     width: 30%;
     text-align: center;
+    cursor: pointer;
+}
+.button__read__article:hover {
+    background-color: var(--button-background-color-on-hover);
 }

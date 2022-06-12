@@ -22,6 +22,8 @@
     --button-text-color: #ffffff;
     --permanent-marker-font: 'Permanent Marker', cursive;
     --form-input-field-background-color: #fbf7ed;
+    --button-background-color-on-hover: #000000;
+    --input-field-focus-border-color: #0076b7;
 }
 * {
     margin: 0;
