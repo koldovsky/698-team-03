@@ -148,9 +148,6 @@ fieldset {
 .blog__card {
     height: auto;
     padding: 25px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
 }
 @media (max-width: 400;) {
     .blog__card__list {
