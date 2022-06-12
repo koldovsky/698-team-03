@@ -121,7 +121,7 @@ fieldset {
     min-height: 620px;
     background-repeat: no-repeat;
 }
-.blog__headline_info {
+.blog__headline__info {
     padding-top: 10px;
     display: block;
     margin-left: auto;
@@ -139,7 +139,7 @@ fieldset {
     font-family: var(--subheadline-font-family);
     font-size: 20px;
     font-weight: 700;
-    color: #4f5047;
+    color: var(--promo-text-color);
     line-height: 30px;
     margin-bottom: 15px;
     padding-left: 5px;
