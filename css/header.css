@@ -101,7 +101,10 @@
 }
 
 @media(min-width:500px) {
-
+    .header__about-page {
+        background-color: var(--main-bcgr-color);
+        background-image: none;
+    }
     .general__information__desktop {
         height: 50px;
         background-color: #efad18;
