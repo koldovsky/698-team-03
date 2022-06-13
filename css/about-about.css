@@ -28,7 +28,7 @@
     display:flex;
     flex-direction:row;
     padding:0 0 50px;
-    background-image: url('../img/bg-about-team.jpg');
+    background: url('../img/bg-about-team.jpg') center bottom;
     background-size: cover;
 }
 .page__about-main .about__section-team-container .about__team-post {
@@ -226,7 +226,7 @@
     .page__about-main .about__section-team-container {
         display:flex;
         flex-direction:row;
-        padding:30px 30px 50px;
+        padding:50px 30px 150px;
     }
     .page__about-main .about__section-team-container .about__team-post {
         flex-grow:1;
