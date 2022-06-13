@@ -1,3 +1,14 @@
-.section__ourBurgers-carusel {
-    background-image: url("../img/bg-ourburgers.jpg") 0 0 no-repeat;
+.section__ourBurgers {
+   /* background-image: url("../img/bg-ourburgers.jpg") 50%/cover no-repeat;*/
+    overflow: hidden;
+    background-image: url("../img/bg-ourburgers.jpg" 0 0 no-repeat);
+    background-size: cover;
+    padding: 0 24px;
 }
+
+.ourBurgers__title {
+    text-align: center;
+}
+ .section__ourBurgers-header p {
+    text-align: center;
+ }
