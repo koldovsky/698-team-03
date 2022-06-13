@@ -178,6 +178,10 @@
 
 /* -------------------- About section style for min-width 810px ----------------- */
 @media screen and (min-width:810px) {
+    .section__about-holder {
+        background-image: url("../img/bg-about_section.jpg");
+        background-size: cover;
+    }
     .section__about-main {
         display:grid;
         grid-template-columns: 1fr 1fr;
