@@ -23,14 +23,13 @@
 /* ========= Section Team ======== */
 .page__about-main .about__section-team {
     background-color: var(--bg-color-burgers);
-    background-image: url('../img/divider-4.svg') repeat-x;
-    background-position: bottom;
-    background-size: cover;
-    padding: 0 0 50px;
 }
 .page__about-main .about__section-team-container {
     display:flex;
     flex-direction:row;
+    padding:0 0 50px;
+    background-image: url('bg-about-team.jpg');
+    background-size: cover;
 }
 .page__about-main .about__section-team-container .about__team-post {
     align-self:flex-start;
@@ -44,22 +43,18 @@
 .about__team-carusel-holder .team-prev-btn,
 .about__team-carusel-holder .team-next-btn  {
     position: absolute;
-    left:-8px;
+    left:-10px;
     top:50%;
     background-color: var(--main-bcgr-color);
     color: var(--white-color);
-    padding:2px 5px;
+    text-decoration: none;
+    font-weight: 700;
+    padding:4px 9px;
     border-radius: 50%;
 }
 .about__team-carusel-holder .team-next-btn {
     left:auto;
-    right:-8px;
-}
-.about__team-carusel-holder .team-prev-btn a,
-.about__team-carusel-holder .team-next-btn a {
-    color: var(--white-color);
-    text-decoration: none;
-    font-weight: 700;
+    right:-10px;
 }
 
 .page__about-main .about__section-team-container .about__team-carusel {
@@ -93,6 +88,7 @@
     line-height: 1.2;
     font-family: var(--subheadline-font-family);
     color: var(--promo-text-color);
+    margin:0 0 20px;
 }
 .about__team-carusel .about__team-carusel-item .team-info .team-role {
     font-size:17px;
@@ -100,6 +96,59 @@
     font-family: var(--subheadline-font-family);
     color: var(--paragraph-text-color);
     font-weight: 400;
+}
+.page__about-main .about__section-team .section__team-bottom {
+    background-image: url('../img/divider-4.svg');
+    background-position: bottom;
+    background-size: cover;
+    height:80px;
+}
+/* =============== Section Truck  =============== */
+.about__section-truck {
+    background-image: url('../img/bg-about-truck.jpg');
+    background-size: cover;
+    display:flex;
+    padding:30px;
+    justify-content:space-around;
+}
+.about__section-truck .about__section-truck-img {
+    flex-grow:1;
+    border-radius: 6px;
+    overflow: hidden;
+    margin:0 30px;
+}
+.about__section-truck .about__section-truck-img img {
+    width:100%;
+    display: block;
+}
+.about__section-truck .about__section-truck-post {
+    flex-grow: 2;
+    width: 100%;
+}
+/* ============= Section Taste ============== */
+.about__section-taste {
+    background: var(--bg-taste-section-color) url('../img/about-bg-taste.jpg') center center;
+    background-size: cover;
+    padding:120px 30px;
+    display: flex;
+    align-content:flex-start;
+}
+.about__section-taste .about__section-taste-post-holder {
+    width:40%;
+    background-color: var(--bg-taste-post-color);
+    color: var(--text-taste-post-color);
+}
+.about__section-taste .about__section-taste-post {
+    padding:40px 30px;
+    text-align: center;
+}
+.about__section-taste .slogan-text {
+    color: var(--white-color);
+    font-size:36px;
+    line-height: 1.2;
+}
+.about__section-taste .promo-text {
+    color:var(--text-taste-post-color);
 }
 
 /* ========= Styles for screen size 400 =========== */
@@ -114,7 +163,7 @@
     .page__about-main .about__section-team-container {
         display:flex;
         flex-direction:column;
-        padding:30px;
+        padding:30px 30px 50px;
     }
     .page__about-main .about__section-team-container .about__team-carusel {
         flex-grow: 3;
@@ -135,6 +184,7 @@
     .page__about-main .about__section-team-container {
         display:flex;
         flex-direction:column;
+        padding:30px 30px 50px;
     }
     .page__about-main .about__section-team-container .about__team-carusel {
         flex-grow: 3;
@@ -155,6 +205,7 @@
     .page__about-main .about__section-team-container {
         display:flex;
         flex-direction:column;
+        padding:30px 30px 50px;
     }
     .page__about-main .about__section-team-container .about__team-carusel {
         flex-grow: 3;
@@ -175,6 +226,7 @@
     .page__about-main .about__section-team-container {
         display:flex;
         flex-direction:row;
+        padding:30px 30px 50px;
     }
     .page__about-main .about__section-team-container .about__team-post {
         flex-grow:1;

@@ -25,6 +25,9 @@
     --form-input-field-background-color: #fbf7ed;
     --button-background-color-on-hover: #000000;
     --input-field-focus-border-color: #0076b7;
+    --bg-taste-section-color: rgb(20,10,10);
+    --bg-taste-post-color: rgba(20, 10, 10, 0.66);
+    --text-taste-post-color: rgb(173,173,173);
 }
 * {
     margin: 0;
