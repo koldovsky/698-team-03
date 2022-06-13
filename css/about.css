@@ -16,7 +16,7 @@
 
 .section__about-holder {
     overflow: hidden;
-    background-image: url('../img/bg-about_section.jpg');
+    background-image: url("../img/bg-about_section.jpg");
     background-size: cover;
     padding: 0 24px;
 }
