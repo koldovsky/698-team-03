@@ -28,7 +28,7 @@
     display:flex;
     flex-direction:row;
     padding:0 0 50px;
-    background-image: url('bg-about-team.jpg');
+    background-image: url('../img/bg-about-team.jpg');
     background-size: cover;
 }
 .page__about-main .about__section-team-container .about__team-post {
