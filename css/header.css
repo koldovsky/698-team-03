@@ -91,19 +91,19 @@
 }
 
 .header__banner-supertitle,
-  .header__banner-subtitle {
-    font-family: Rubik, sans-serif;
-    font-size: 63px;
-    color: white;
-  }
+.header__banner-subtitle {
+  font-family: Rubik, sans-serif;
+  font-size: 63px;
+  color: white;
+}
 
-  .header__banner-supertitle {
-    width: 50%;
-  }
+.header__banner-supertitle {
+  width: 50%;
+}
 
-  .  .header__banner-subtitle {
-    width: auto;
-  }
+.header__banner-subtitle {
+  width: auto;
+}
 
 .header__banner-text {
   font-family: lato, sans-serif;
@@ -215,7 +215,7 @@
     width: 50%;
   }
 
-  .  .header__banner-subtitle {
+  .header__banner-subtitle {
     width: auto;
   }
 
@@ -331,7 +331,7 @@
     width: 50%;
   }
 
-  .  .header__banner-subtitle {
+  .header__banner-subtitle {
     width: auto;
   }
 
