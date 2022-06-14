@@ -90,12 +90,20 @@
   justify-content: space-between;
 }
 
-.header__banner-supertitle {
-  font-family: Rubik, sans-serif;
-  font-size: 63px;
-  color: white;
-  width: 50%;
-}
+.header__banner-supertitle,
+  .header__banner-subtitle {
+    font-family: Rubik, sans-serif;
+    font-size: 63px;
+    color: white;
+  }
+
+  .header__banner-supertitle {
+    width: 50%;
+  }
+
+  .  .header__banner-subtitle {
+    width: auto;
+  }
 
 .header__banner-text {
   font-family: lato, sans-serif;
@@ -196,10 +204,18 @@
     justify-content: space-between;
   }
 
-  .header__banner-supertitle {
+  .header__banner-supertitle,
+  .header__banner-subtitle {
     font-family: Rubik, sans-serif;
     font-size: 63px;
     color: white;
+  }
+
+  .header__banner-supertitle {
+    width: 50%;
+  }
+
+  .  .header__banner-subtitle {
     width: auto;
   }
 
@@ -304,10 +320,18 @@
     justify-content: space-between;
   }
 
-  .header__banner-supertitle {
+  .header__banner-supertitle,
+  .header__banner-subtitle {
     font-family: Rubik, sans-serif;
     font-size: 63px;
     color: white;
+  }
+
+  .header__banner-supertitle {
+    width: 50%;
+  }
+
+  .  .header__banner-subtitle {
     width: auto;
   }
 
