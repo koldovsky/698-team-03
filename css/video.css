@@ -1,4 +1,6 @@
-
+.video__showcase {
+    width: 100%;
+}
 .video__title {
 color: red;
     font-family: "Permanent Marker", cursive;
@@ -7,15 +9,32 @@ color: red;
     justify-content:left;
     overflow:hidden;
 }
+.video__showcase-preparation {
+    padding-top: 50px;
+    padding-left: 25px;
+   
+}
 .video__showcase{
     background-image: url(../img/burgerbackground_video.jpeg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    width: 100%;
+    
 }
 .video__subtitle {
   color: #fff;
+  font-family:  var(--headline-font-family);
+  font-size: 46px;
+  margin-left: 25px;
+  
 }
 .video-explanation {
 color: rgb(173,173,173);
+font-family: var(--subheadline-font-family);
+font-size: 18px;
+}
+.video__play {
+    color: #fff;
+}
+.play__icon {
+    background-color: #000;
+    margin-left: 15px;
 }
