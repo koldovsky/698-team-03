@@ -1,3 +1,5 @@
+/*400*/
+
 .section__contact_section__us-top {
     background-image: url(../img/divider_top_contact_us_index_page.jpg);
     background-size: cover;
@@ -116,9 +118,12 @@
 /*====button====*/
 
 .section_contact_us-left_button-box {
-    width: 770px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 80.81px;
     height: 25px;
-    margin: 40px 0px 0px 0px;
+    margin: 25px 0px 0px 0px;
     padding: 0;
 }
 
@@ -126,24 +131,24 @@
     color: var(--white-color);
     font-family: var(--subheadline-font-family);
     font-size: 16.5px;
-    width: 86.81px;
+    font-weight: 700;
+    width: 75.81px;
     height: 19.8px;
-    padding: 0;
+    padding: 16px 28px;
     margin: 0;
 }
 
-.section_contact_us-left_button {
+a.section_contact_us-left_button {
     background-color: var(--read-article-button-bgr-color);
     color: var(--button-text-color);
     text-decoration: none;
-    font-weight: 700;
+    
     border-radius: 1px;
     border-width: 1px;
     border-radius: 25px;
     display: inline-block;
-    width: 100.812px;
-    height: 22.8px;
-    padding: 16px 28px;
+    width: 130.812px;
+    height: 49.8px;
     text-align: center;
     cursor: pointer;
 }
