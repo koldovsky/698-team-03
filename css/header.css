@@ -12,6 +12,10 @@
   justify-content: center;
 }
 
+.header__main-logo-img {
+  width: 200px;
+}
+
 .header__nav-menu {
   color: white;
   font-family: var(--subheadline-font-family);
@@ -290,6 +294,10 @@
 
 .header__order-button:hover {
   background-color: var(--slogan-text-color);
+}
+
+.header__phone-img {
+  width: 40px;
 }
 
 .header__details-call {
