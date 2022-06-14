@@ -14,7 +14,7 @@
 
 .header__nav-menu {
   color: white;
-  font-family: lato;
+  font-family: var(--subheadline-font-family);
   font-weight: bold;
   font-size: 14px;
   display: flex;
@@ -92,7 +92,7 @@
 
 .header__banner-supertitle,
 .header__banner-subtitle {
-  font-family: Rubik, sans-serif;
+  font-family: var(--headline-font-family);
   font-size: 63px;
   color: white;
 }
@@ -206,7 +206,7 @@
 
   .header__banner-supertitle,
   .header__banner-subtitle {
-    font-family: Rubik, sans-serif;
+    font-family: var(--headline-font-family);
     font-size: 63px;
     color: white;
   }

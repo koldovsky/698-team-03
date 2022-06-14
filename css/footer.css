@@ -125,7 +125,7 @@ footer {
 }
 
 .footer__nav-subtitle {
-  font-family: rubik, sans-serif;
+  font-family: var(--headline-font-family);
   color: white;
   font-weight: bold;
   font-size: 27px;
