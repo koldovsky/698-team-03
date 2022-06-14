@@ -1,0 +1,21 @@
+
+.video__title {
+color: red;
+    font-family: "Permanent Marker", cursive;
+    display:flex;
+    flex-direction:row;
+    justify-content:left;
+    overflow:hidden;
+}
+.video__showcase{
+    background-image: url(../img/burgerbackground_video.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.video__subtitle {
+  color: #fff;
+}
+.video-explanation {
+color: rgb(173,173,173);
+}
