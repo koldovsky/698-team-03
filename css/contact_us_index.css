@@ -134,7 +134,7 @@
     font-weight: 700;
     width: 75.81px;
     height: 19.8px;
-    padding: 16px 28px;
+    padding: 16px 0px;
     margin: 0;
 }
 
@@ -158,26 +158,26 @@ a.section_contact_us-left_button {
     color: var(--button-background-color-on-hover);
 }
 
-/*=====right block=====
+/*=====right block=====*/
 
 .section_contact_us-right {
-    width: 369.987px;
-    height: 314px;
-    margin: -16px 0px 0px 0px;
+    width: 382px; /*369.987px;*/
+    height: 285.2px; /*314px;*/
+    margin: 50px 0px 0px 0px;
     padding: 0 15px;
     border: 0;
 }
 
 .section_contact_us-right-box {
-    width: 369.987px;
-    height: 66.5px;
+    width: 352px;
+    height: 59.3px;
     margin: 0px 0px 16px 0px;
     padding: 0;
     border: 0;
 }
 
 .section_contact_us-right_title {
-    font-size: 30px;
+    font-size: 24px;
     font-family: var(--headline-font-family);
     color: var(--white-color);
     width: 369.987px;
@@ -190,7 +190,7 @@ a.section_contact_us-left_button {
 .section_contact_us-right_description {
     font-size: 17px;
     font-family: var(--subheadline-font-family);
-    color: #7e7e7c;
+    color: var(--block-contact_us-container-text-color);
     width: 369.987px;
     height: 25.5px;
     margin: 5px 0px 0px 0px;
