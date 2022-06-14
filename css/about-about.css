@@ -211,9 +211,10 @@
         display:grid;
         grid-template-columns: 1fr 1fr;
     }
+    
     /* taste section */
     .about__section-taste .about__section-taste-post-holder {
-        width:40%;
+        width:60%;
         background-color: var(--bg-taste-post-color);
         color: var(--text-taste-post-color);
     }
@@ -253,7 +254,7 @@
     }
     /* taste section */
     .about__section-taste .about__section-taste-post-holder {
-        width:60%;
+        width:50%;
         background-color: var(--bg-taste-post-color);
         color: var(--text-taste-post-color);
     }
