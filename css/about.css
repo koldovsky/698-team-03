@@ -100,8 +100,7 @@
 }
 
 /* ------------- animation color on hover state on link More About --------------- */
-.about__post-link-to-page .link-to-page:hover,
-.header__order-button:hover {
+.about__post-link-to-page .link-to-page:hover{
     animation-name: background-color;
     animation-duration: 500ms;
     animation-fill-mode: forwards;

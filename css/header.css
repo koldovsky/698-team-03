@@ -33,6 +33,10 @@
   margin: 0px 10px;
 }
 
+.menu-link:hover {
+  color: var(--main-details-color);
+}
+
 .general__information__mobile {
   color: white;
   font-family: lato;
@@ -75,6 +79,20 @@
   border-radius: 25px;
   padding: 5px 8px;
   display: inline-block;
+}
+
+.sn-link-fb:hover {
+  background-color: var(--main-details-color);
+  opacity: 80%;
+}
+.sn-link-inst:hover {
+  background-color: var(--main-details-color);
+  opacity: 80%;
+}
+
+.sn-link-yt:hover {
+  background-color: var(--main-details-color);
+  opacity: 80%;
 }
 
 .header__banner {
@@ -229,16 +247,16 @@
   }
 }
 @media (min-width: 810px) {
-    .header__banner-supertitle {
-      width: 60%;
-    }
+  .header__banner-supertitle {
+    width: 60%;
   }
+}
 
 @media (min-width: 1280px) {
-    .header__banner-supertitle {
-      width: 50%;
-    }
+  .header__banner-supertitle {
+    width: 50%;
   }
+}
 
 .header__details {
   align-items: center;
@@ -270,6 +288,11 @@
   font-size: 16px;
   padding: 16px 28px;
   display: inline-block;
+  transition: all 0.2s linear;
+}
+
+.header__order-button:hover {
+  background-color: var(--slogan-text-color);
 }
 
 .header__details-call {
