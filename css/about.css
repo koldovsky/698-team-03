@@ -16,7 +16,7 @@
 
 .section__about-holder {
     overflow: hidden;
-    background-image: url(../img/bg-about_section.jpg);
+    background-image: url("../img/bg-about_section.jpg");
     background-size: cover;
     padding: 0 24px;
 }
@@ -100,8 +100,7 @@
 }
 
 /* ------------- animation color on hover state on link More About --------------- */
-.about__post-link-to-page .link-to-page:hover,
-.header__order-button:hover {
+.about__post-link-to-page .link-to-page:hover{
     animation-name: background-color;
     animation-duration: 500ms;
     animation-fill-mode: forwards;
@@ -178,6 +177,10 @@
 
 /* -------------------- About section style for min-width 810px ----------------- */
 @media screen and (min-width:810px) {
+    .section__about-holder {
+        background-image: url("../img/bg-about_section.jpg");
+        background-size: cover;
+    }
     .section__about-main {
         display:grid;
         grid-template-columns: 1fr 1fr;

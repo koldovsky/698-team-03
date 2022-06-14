@@ -1,0 +1,297 @@
+.page__about-main {
+    padding: 0;
+    margin: 0;
+}
+/* ========== Section About =========== */
+.page__about-main .section__about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.page__about-main .section__about .section__about-image {
+    width:100%;
+}
+.page__about-main .section__about .section__about-image img {
+    width:100%;
+}
+.page__about-main .section__about .section__about-main {
+    width:100%;
+}
+.page__about-main .section__about .section__about-post {
+    padding: 70px 30px;
+}
+
+/* ========= Section Team ======== */
+.page__about-main .about__section-team {
+    background-color: var(--bg-color-burgers);
+}
+.page__about-main .about__section-team-container {
+    display:flex;
+    flex-direction:row;
+    padding:0 0 50px;
+    background: url('../img/bg-about-team.jpg') center bottom;
+    background-size: cover;
+}
+.page__about-main .about__section-team-container .about__team-post {
+    align-self:flex-start;
+}
+/* ========= Section Team - Carousel ======== */
+.about__team-carusel-holder {
+    position:relative;
+    margin:0 15px;
+    align-self:flex-start;
+}
+.about__team-carusel-holder .team-prev-btn,
+.about__team-carusel-holder .team-next-btn  {
+    position: absolute;
+    left:-10px;
+    top:50%;
+    background-color: var(--main-bcgr-color);
+    color: var(--white-color);
+    text-decoration: none;
+    font-weight: 700;
+    padding:4px 9px;
+    border-radius: 50%;
+}
+.about__team-carusel-holder .team-next-btn {
+    left:auto;
+    right:-10px;
+}
+
+.page__about-main .about__section-team-container .about__team-carusel {
+    flex-grow: 3;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap:10px;
+    
+}
+/* ========= Section Team - Carousel - Items =========== */
+.about__team-carusel .about__team-carusel-item {
+    overflow:hidden;
+    display: flex;
+    flex-direction: column;
+}
+.about__team-carusel .about__team-carusel-item .team-img-holder {
+    border-radius: 6px;
+    overflow:hidden;
+    margin:0 0 20px;
+}
+.about__team-carusel .about__team-carusel-item img {
+    width:100%;
+    display: block;
+}
+.about__team-carusel .about__team-carusel-item .team-info {
+    display: flex;
+    flex-direction: column;
+}
+.about__team-carusel .about__team-carusel-item .team-info .team-name {
+    font-size:23px;
+    line-height: 1.2;
+    font-family: var(--subheadline-font-family);
+    color: var(--promo-text-color);
+    margin:0 0 20px;
+}
+.about__team-carusel .about__team-carusel-item .team-info .team-role {
+    font-size:17px;
+    line-height: 1.5;
+    font-family: var(--subheadline-font-family);
+    color: var(--paragraph-text-color);
+    font-weight: 400;
+}
+.page__about-main .about__section-team .section__team-bottom {
+    background-image: url('../img/divider-4.svg');
+    background-position: bottom;
+    background-size: cover;
+    height:80px;
+}
+/* =============== Section Truck  =============== */
+.about__section-truck {
+    background-image: url('../img/bg-about-truck.jpg');
+    background-size: cover;
+    display:flex;
+    padding:30px 100px;
+    justify-content:space-around;
+}
+.about__section-truck .about__section-truck-img {
+    flex-grow:1;
+    border-radius: 6px;
+    overflow: hidden;
+    margin:0 30px;
+}
+.about__section-truck .about__section-truck-img img {
+    width:100%;
+    display: block;
+}
+.about__section-truck .about__section-truck-post {
+    flex-grow: 2;
+    width: 100%;
+}
+/* ============= Section Taste ============== */
+.about__section-taste {
+    background: var(--bg-taste-section-color) url('../img/about-bg-taste.jpg') center center;
+    background-size: cover;
+    padding:120px 30px;
+    display: flex;
+    align-content:flex-start;
+}
+.about__section-taste .about__section-taste-post-holder {
+    width:40%;
+    background-color: var(--bg-taste-post-color);
+    color: var(--text-taste-post-color);
+}
+.about__section-taste .about__section-taste-post {
+    padding:40px 30px;
+    text-align: center;
+}
+.about__section-taste .slogan-text {
+    color: var(--white-color);
+    font-size:36px;
+    line-height: 1.2;
+}
+.about__section-taste .promo-text {
+    color:var(--text-taste-post-color);
+}
+
+/* ========= Styles for screen size 400 =========== */
+@media screen and (min-width:400px){
+    /* about section */
+    .page__about-main .section__about {
+        display: grid;
+        grid-template-columns: 1fr;
+       
+    }
+    /* team section */
+    .page__about-main .about__section-team-container {
+        display:flex;
+        flex-direction:column;
+        padding:30px 30px 50px;
+    }
+    .page__about-main .about__section-team-container .about__team-carusel {
+        flex-grow: 3;
+        display:grid;
+        grid-template-columns: 1fr;
+        
+    }
+    /* ======== Truck section ======== */
+    .about__section-truck {
+        display:flex;
+        flex-direction:column;
+        padding:30px;
+        background-image: none;
+    }
+    .about__section-truck .about__section-truck-img {
+        margin:0 0 30px;
+    }
+    .about__section-truck .about__section-truck-post {
+        flex-grow: 1;
+    }
+    /* Taste section */
+    .about__section-taste .about__section-taste-post-holder {
+        width:100%;
+    }
+    .about__section-taste .slogan-text {
+        font-size:30px;
+    }
+}
+/* ========= Styles for screen size 640 =========== */
+@media screen and (min-width:640px){
+     /* about section */
+    .page__about-main .section__about {
+        display: grid;
+        grid-template-columns: 1fr;
+       
+    }
+    /* team section */
+    .page__about-main .about__section-team-container {
+        display:flex;
+        flex-direction:column;
+        padding:30px 30px 50px;
+    }
+    .page__about-main .about__section-team-container .about__team-carusel {
+        flex-grow: 3;
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    /* taste section */
+    .about__section-taste .about__section-taste-post-holder {
+        width:60%;
+        background-color: var(--bg-taste-post-color);
+        color: var(--text-taste-post-color);
+    }
+}
+/* ========= Styles for screen size 810 =========== */
+@media screen and (min-width:810px){
+    /* about section */
+    .page__about-main .section__about {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+       
+    }
+    /* team section */
+    .page__about-main .about__section-team-container {
+        display:flex;
+        flex-direction:column;
+        padding:30px 30px 50px;
+    }
+    .page__about-main .about__section-team-container .about__team-carusel {
+        flex-grow: 3;
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    /* ======== Truck section ======== */
+    .about__section-truck {
+        display:flex;
+        flex-direction:row;
+        padding:30px;
+        background-image: none;
+    }
+    .about__section-truck .about__section-truck-img {
+        margin:0 0 30px;
+    }
+    .about__section-truck .about__section-truck-post {
+        flex-grow: 2;
+        padding:30px;
+    }
+    /* taste section */
+    .about__section-taste .about__section-taste-post-holder {
+        width:50%;
+        background-color: var(--bg-taste-post-color);
+        color: var(--text-taste-post-color);
+    }
+    .about__section-taste .slogan-text {
+        font-size:36px;
+    }
+}
+/* ========= Styles for screen size 990 =========== */
+@media screen and (min-width:990px){
+    /* about section */
+    .page__about-main .section__about {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+       
+    }
+    /* team section */
+    .page__about-main .about__section-team-container {
+        display:flex;
+        flex-direction:row;
+        padding:50px 30px 150px;
+    }
+    .page__about-main .about__section-team-container .about__team-post {
+        flex-grow:1;
+        margin: 0 30px 0 0;
+    }
+    .page__about-main .about__section-team-container .about__team-carusel {
+        flex-grow: 3;
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .about__team-carusel .about__team-carusel-item {
+        max-width: 100%;
+    }
+    /* taste section */
+    .about__section-taste .about__section-taste-post-holder {
+        width:40%;
+        background-color: var(--bg-taste-post-color);
+        color: var(--text-taste-post-color);
+    }
+}

@@ -149,7 +149,7 @@ fieldset {
     height: auto;
     padding: 25px;
 }
-@media (max-width: 400;) {
+@media (max-width: 400) {
     .blog__card__list {
         display: grid;
         grid-template-columns: 1fr;
