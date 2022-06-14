@@ -7,12 +7,14 @@
 :root {
     --text-color-h2: #e7272d;
     --main-details-color: #e7272d;
+    --accent-main-details-color: #e65055;
     scroll-behavior: smooth;
     --headline-font-family: 'Rubik', sans-serif;
     --subheadline-font-family: 'Lato', sans-serif;
     --subheadline-text-color: #454545;
     --read-article-button-bgr-color: #fbbe36;
     --main-bcgr-color: #fbbe36;
+    --accent-main-bcgr-color: #efad18;
     --bg-color-burgers: rgb(251,247,237);
     --article-text-color: #676767;
     --list-items-color:rgb(69,69,69);

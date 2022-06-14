@@ -10,7 +10,7 @@ footer {
 }
 
 .fn__logo-icon {
-    width: 200px;
+  width: 200px;
 }
 
 .footer__nav-block,
@@ -81,6 +81,7 @@ footer {
   .footer__email-text {
     text-align: left;
     width: 200px;
+    margin: 0px;
   }
 
   .footer__rights {
@@ -106,9 +107,10 @@ footer {
 }
 
 @media (min-width: 810px) {
-    .fn__logo-icon {
-        padding: 0px;}
-    }
+  .fn__logo-icon {
+    padding: 0px;
+  }
+}
 
 .fsn-link-fb,
 .fsn-link-inst,
@@ -124,6 +126,12 @@ footer {
   display: inline-block;
 }
 
+.fsn-link-fb:hover,
+.fsn-link-inst:hover,
+.fsn-link-yt:hover {
+  background-color: var(--accent-main-bcgr-color);
+}
+
 .footer__nav-subtitle {
   font-family: var(--headline-font-family);
   color: white;
@@ -132,11 +140,11 @@ footer {
   margin-top: 15px;
 }
 .footer-nav__line {
-    width: 100px;
-    height: 3px;
-    background-color: var(--main-bcgr-color);
-    margin: 10px 0px;
-  }
+  width: 100px;
+  height: 3px;
+  background-color: var(--main-bcgr-color);
+  margin: 10px 0px;
+}
 
 @media (min-width: 810px) {
   .footer__nav-subtitle {
@@ -163,6 +171,10 @@ footer {
   padding: 5px 0px;
 }
 
+.foot__menu-link:hover {
+  color: var(--accent-main-bcgr-color);
+}
+
 .footer-email__container {
   display: flex;
   flex-direction: column;
@@ -184,10 +196,10 @@ input.footer-input__email:placeholder {
   color: #787878;
 }
 .footer-email__container {
-max-width: 810px;
-width: 100%;
-display: flex;
-align-items: center;
+  max-width: 810px;
+  width: 100%;
+  display: flex;
+  align-items: center;
 }
 
 .footer-button_submit {
@@ -200,7 +212,7 @@ align-items: center;
   width: 80%;
 }
 .footer-input__email {
-    width: 77%;
+  width: 77%;
 }
 
 .footer__rights {
@@ -209,18 +221,31 @@ align-items: center;
   align-items: center;
 }
 
+.footer-button_submit:hover {
+    background-color: var(--accent-main-bcgr-color);
+    transition: all 0.2s linear;
+  }
+
 @media (min-width: 810px) {
   .footer-button_submit {
     margin-top: 20px;
     padding: 8px 0;
-    
   }
 
-  .footer__rights {
+.footer__rights {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 74%;
+}
+
+.footer-email__container {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 74%;
+    align-items: flex-start;
+  }
+
+  .footer-input__email {
+    width: 73%;
   }
 }
 
