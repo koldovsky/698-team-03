@@ -1,0 +1,14 @@
+.section__ourBurgers {
+    background-image: url(../img/bg-ourburgers.jpg);
+    background-position: 50% auto;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    
+}
+
+.ourBurgers__title {
+    text-align: center;
+}
+ .section__ourBurgers-header p {
+    text-align: center;
+ }
