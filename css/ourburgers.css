@@ -1,9 +1,9 @@
 .section__ourBurgers {
-   /* background-image: url("../img/bg-ourburgers.jpg") 50%/cover no-repeat;*/
-    overflow: hidden;
-    background-image: url("../img/bg-ourburgers.jpg" 0 0 no-repeat);
-    background-size: cover;
-    padding: 0 24px;
+    background-image: url(../img/bg-ourburgers.jpg);
+    background-position: 50% auto;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    
 }
 
 .ourBurgers__title {
