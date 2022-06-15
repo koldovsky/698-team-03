@@ -171,6 +171,26 @@
         grid-template-columns: 1fr;
         
     }
+    /* ======== Truck section ======== */
+    .about__section-truck {
+        display:flex;
+        flex-direction:column;
+        padding:30px;
+        background-image: none;
+    }
+    .about__section-truck .about__section-truck-img {
+        margin:0 0 30px;
+    }
+    .about__section-truck .about__section-truck-post {
+        flex-grow: 1;
+    }
+    /* Taste section */
+    .about__section-taste .about__section-taste-post-holder {
+        width:100%;
+    }
+    .about__section-taste .slogan-text {
+        font-size:30px;
+    }
 }
 /* ========= Styles for screen size 640 =========== */
 @media screen and (min-width:640px){
@@ -190,7 +210,13 @@
         flex-grow: 3;
         display:grid;
         grid-template-columns: 1fr 1fr;
-        
+    }
+    
+    /* taste section */
+    .about__section-taste .about__section-taste-post-holder {
+        width:60%;
+        background-color: var(--bg-taste-post-color);
+        color: var(--text-taste-post-color);
     }
 }
 /* ========= Styles for screen size 810 =========== */
@@ -211,7 +237,29 @@
         flex-grow: 3;
         display:grid;
         grid-template-columns: 1fr 1fr 1fr;
-        
+    }
+    /* ======== Truck section ======== */
+    .about__section-truck {
+        display:flex;
+        flex-direction:row;
+        padding:30px;
+        background-image: none;
+    }
+    .about__section-truck .about__section-truck-img {
+        margin:0 0 30px;
+    }
+    .about__section-truck .about__section-truck-post {
+        flex-grow: 2;
+        padding:30px;
+    }
+    /* taste section */
+    .about__section-taste .about__section-taste-post-holder {
+        width:50%;
+        background-color: var(--bg-taste-post-color);
+        color: var(--text-taste-post-color);
+    }
+    .about__section-taste .slogan-text {
+        font-size:36px;
     }
 }
 /* ========= Styles for screen size 990 =========== */
@@ -236,9 +284,14 @@
         flex-grow: 3;
         display:grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        
     }
     .about__team-carusel .about__team-carusel-item {
         max-width: 100%;
+    }
+    /* taste section */
+    .about__section-taste .about__section-taste-post-holder {
+        width:40%;
+        background-color: var(--bg-taste-post-color);
+        color: var(--text-taste-post-color);
     }
 }
