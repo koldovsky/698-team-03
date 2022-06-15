@@ -1,6 +1,7 @@
+/*=====WIDTH 400=====*/
 .section__contact_section__us-top {
     background-image: url(../img/divider_top_contact_us_index_page.jpg);
-    background-size:cover;
+    background-size: cover;
     background-repeat: no-repeat;
     max-width: 100%;
     height: 69px;
@@ -23,9 +24,6 @@
 }
 
 .section_contact_us-container {
-    background-image: url(../img/contact_us_index_page_block_background.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -196,7 +194,7 @@ a.section_contact_us-left_button {
         position: relative;
         overflow: hidden;
     }
-    
+
     .section_contact_us-block {
         background-image: url(../img/contact_us_index_page_block_background.jpg);
         background-size: cover;
@@ -210,6 +208,7 @@ a.section_contact_us-left_button {
 
 
 }
+
 @media screen and (min-width:640px) {
     .section__contact_section__us-top {
         background-image: url(../img/divider_top_contact_us_index_page.jpg);
@@ -221,7 +220,7 @@ a.section_contact_us-left_button {
         position: relative;
         overflow: hidden;
     }
-    
+
     .section_contact_us-block {
         background-image: url(../img/contact_us_index_page_block_background.jpg);
         background-size: cover;
@@ -249,6 +248,13 @@ a.section_contact_us-left_button {
     .section_contact_us-block {
         background-image: url(../img/contact_us_index_page_block_background.jpg);
         background-size: cover;
+        max-width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0 50px;
+        position: relative;
+        overflow: hidden;
+        
     }
 
     .section_contact_us-container {
@@ -257,6 +263,24 @@ a.section_contact_us-left_button {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        
+    }
+
+    .section_contact_us-left {
+        width: 100%;
+        height: 361.6px;
+        margin: 0;
+        padding: 0 75px;
+        border: 0;
+    
+    }
+
+    .section_contact_us-right {
+        width: 382px;
+        height: 285.2px;
+        margin: 50px 0px 0px 0px;
+        padding: 0 60px;
+        border: 0;
     }
 }
 
