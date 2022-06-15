@@ -8,11 +8,13 @@
 @media (max-width: 400px) {
     .catering__request {
         background-position: left;   
-}}
+    }
+}
 @media (min-width: 640px) {
     .catering__request {
         background-position: left;   
-}}
+    }
+}
 h2.form__header {
     font-family: var(--permanent-marker-font);
     color: var(--text-color-h2);
@@ -48,7 +50,8 @@ fieldset {
     fieldset {
         padding-left: 50px;
         padding-right: 50px;
-}}
+    }
+}
 .divider__hire__us__top {
     background-image: url(../img/divider_hire_us_top.svg);
     background-size: cover;
@@ -149,18 +152,20 @@ fieldset {
     height: auto;
     padding: 25px;
 }
-@media (max-width: 400) {
+@media (max-width: 400px) {
     .blog__card__list {
         display: grid;
         grid-template-columns: 1fr;
         gap: 5px;
-}}
+    }
+}
 @media (min-width: 640px) {
     .blog__card__list {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 5px;
-}}
+    }
+}
 @media (min-width: 810px) {
     .blog__card__list {
         grid-template-columns: 1fr 1fr 1fr;
@@ -169,7 +174,8 @@ fieldset {
         padding-left: 10%;
         padding-right: 10%;
         padding-bottom: 5%;
-}}
+    }
+}
 .blog__image {
     width: 100%;
     height: auto;
