@@ -23,6 +23,9 @@
 }
 
 .section_contact_us-container {
+    background-image: url(../img/contact_us_index_page_block_background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
