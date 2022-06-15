@@ -15,10 +15,10 @@
     --read-article-button-bgr-color: #fbbe36;
     --main-bcgr-color: #fbbe36;
     --accent-main-bcgr-color: #efad18;
-    --bg-color-burgers: rgb(251,247,237);
+    --bg-color-burgers: #fbf7ed;
     --article-text-color: #676767;
-    --list-items-color:rgb(69,69,69);
-    --block-contact_us-container-text-color: #ADADAD;
+    --list-items-color:#454545;
+    --block-contact_us-container-text-color: #adadad;
     --white-color: #ffffff;
     --slogan-text-color:#282623;
     --promo-text-color:#4f5047;
@@ -28,9 +28,10 @@
     --form-input-field-background-color: #fbf7ed;
     --button-background-color-on-hover: #000000;
     --input-field-focus-border-color: #0076b7;
-    --bg-taste-section-color: rgb(20,10,10);
-    --bg-taste-post-color: rgba(20, 10, 10, 0.66);
-    --text-taste-post-color: rgb(173,173,173);
+    --bg-taste-section-color: #140a0a;
+    --bg-taste-post-color: #140a0aa8;
+    --text-taste-post-color: #adadad;
+    --catering-slogan-text-color: #282623;
 }
 * {
     margin: 0;
