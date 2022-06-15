@@ -6,9 +6,26 @@
     
 }
 
+.section__ourBurgers{
+    padding: 0px 0px 50px 0px;
+}
 .ourBurgers__title {
     text-align: center;
 }
  .section__ourBurgers-header p {
     text-align: center;
  }
+ .section__ourBurgers-carusel {
+    text-align: center; 
+ }
+.slide p{
+    color: var(--paragraph-text-color);
+    font-family: var(--subheadline-font-family);
+    font-size: 17px;
+}
+.slide span{
+    color:var(--main-details-color);
+    font-size: 23px;
+    font-style:inherit;
+    padding: 0px 15px 0px 0px;
+}
