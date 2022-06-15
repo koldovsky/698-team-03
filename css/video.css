@@ -1,5 +1,6 @@
 .video__showcase {
-    width: 100%;
+    background-image: url(../img/burgerbackground_video.jpeg);
+    margin-top: 5px;
 }
 .video__title {
 color: red;
@@ -14,17 +15,11 @@ color: red;
     padding-left: 25px;
    
 }
-.video__showcase{
-    background-image: url(../img/burgerbackground_video.jpeg);
-    width: 100%;
-    
-}
 .video__subtitle {
   color: #fff;
   font-family:  var(--headline-font-family);
   font-size: 46px;
   margin-left: 25px;
-  
 }
 .video-explanation {
 color: rgb(173,173,173);
