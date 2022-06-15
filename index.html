@@ -540,7 +540,12 @@
     </script>
      <script src="js/owl.carousel.min.js"></script><!-- added Iryna. Dont delete. If it something wrong, please, let comment-->
      <script>$(document).ready(function(){
-        $(".owl-carousel").owlCarousel();
+        $(".owl-carousel").owlCarousel({
+            items: 4,
+            margin: 50,
+            loop: false,
+            center: false,
+        });
       });
       </script>
     </body>
