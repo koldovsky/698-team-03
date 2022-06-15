@@ -46,7 +46,8 @@ fieldset {
     .catering__request__form { 
         align-items: flex-start;
         justify-content: center;
-        padding-left: 10%;}
+        padding-left: 10%;
+    }
     fieldset {
         padding-left: 50px;
         padding-right: 50px;
@@ -169,7 +170,7 @@ fieldset {
 @media (min-width: 810px) {
     .blog__card__list {
         grid-template-columns: 1fr 1fr 1fr;
-}
+    }
     .blog {
         padding-left: 10%;
         padding-right: 10%;
