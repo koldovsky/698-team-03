@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Burgers food truck</title>
     <link rel="icon" href="img/favicon.png" type="image/png">
+    <link rel="stylesheet" href="css/owl.carousel.min.css"> <!-- added Iryna. Dont delete. If it something wrong, please, let comment-->
+    <link rel="stylesheet" href="css/owl.theme.default.min.css"> <!-- added Iryna. Dont delete. If it something wrong, please, let comment-->
     <link rel="stylesheet" type="text/css" href="css/index.css">
 </head>
 
@@ -122,6 +124,16 @@
                 <p class="promo-text">Hungry? Don't miss our selection of juicy burgers prepared just for you!</p>
             </div>
             <div class="section__ourBurgers-carusel">
+                <!-- Set up your HTML -->
+                <div class="owl-carousel">
+                    <div> Your Content </div>
+                    <div> Your Content </div>
+                    <div> Your Content </div>
+                    <div> Your Content </div>
+                    <div> Your Content </div>
+                    <div> Your Content </div>
+                    <div> Your Content </div>
+                </div>
                 <div class="slide">
                     <img src="img/burger-1.png" alt="Burger Double Beef" height="502">
                     <h3>Double Beef</h3>
@@ -520,6 +532,22 @@
         </div>
     </footer>
     <!-- Uliana Kolodii end -->
-</body>
+    <script src="jquery.min.js"></script> <!-- added Iryna. Dont delete. If it something wrong, please, let comment-->
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous">
+    </script>
+     <script src="js/owl.carousel.min.js"></script><!-- added Iryna. Dont delete. If it something wrong, please, let comment-->
+     <script>$(document).ready(function(){
+        $(".owl-carousel").owlCarousel({
+            items: 4,
+            margin: 50,
+            loop: false,
+            center: false,
+        });
+      });
+      </script>
+    </body>
 
 </html>
