@@ -18,20 +18,28 @@
  .section__ourBurgers-carusel {
     text-align: center; 
  }
-.slide p{
+
+.owl-item {
+
+}
+.owl-item p {
     color: var(--paragraph-text-color);
     font-family: var(--subheadline-font-family);
     font-size: 17px;
 }
-.slide span{
+.owl-item span {
     color:var(--main-details-color);
     font-size: 23px;
     font-style:inherit;
     padding: 0px 15px 0px 0px;
 }
-.owl-item {
-    box-sizing: border-box;
-    height: 200px;
-    border: 3px solid #3f3f3f;
-    border-radius: 15px;
+
+owl-next{
+
+}
+owl-prev{
+
+}
+.myNav{
+
 }

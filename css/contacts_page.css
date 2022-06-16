@@ -1,0 +1,15 @@
+.header {
+  background-color: var(--main-bcgr-color);
+  background-image: none;
+  height: 500px;
+}
+
+.hb-text__container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header__banner-text {
+  color: white;
+}
