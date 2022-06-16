@@ -3,3 +3,8 @@
     height: auto;
     background-color: var(--slogan-text-color);
 }
+
+/*.bottom-carousel_index,
+.owl-carousel .owl-item {
+    items: 5;
+}*/

@@ -1,3 +1,8 @@
+.wrapper {
+    margin: 0px auto;
+    width: 100%;
+}
+
 .page__catering-main {
     width: 100%;
     margin: auto;
@@ -10,6 +15,7 @@
     justify-content: center;
     width: 100%;
     box-sizing: border-box;
+
 }
 
 @media screen and (min-width: 800px) {
@@ -22,7 +28,7 @@
         box-sizing: border-box;
     }
 
-   .section__catering-post {
+    .section__catering-post {
         width: 100%;
         height: auto;
         margin: 0;
@@ -86,9 +92,9 @@
     margin-bottom: 25px;
 }
 
-/* --- yellow bullet --- */
 .catering__post-list p::before,
 .catering__post-list-item p::before {
+    /* --- yellow bullet --- */
     width: 20px;
     height: 18px;
     padding-top: 2px;
@@ -114,3 +120,24 @@
     text-align: left;
     line-height: 1.5;
 }
+
+/*====================================================================*/
+.section__catering-cards {
+    background-image: url(../img/catering-page-options-section-background.jpg);
+    width: 100%;
+    padding: 90px 0px;
+}
+
+.section__catering-cards_container {
+    padding: 0px 25px;
+}
+
+.options_heading,
+.section__catering-cards_promo-text {
+    text-align: center;
+}
+
+.catering__page-cards_promo-text_second-line {
+
+}
+
