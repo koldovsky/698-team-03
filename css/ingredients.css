@@ -1,71 +1,70 @@
 /* -------------------- Ingredient section desktop version ---------------------- */
 .section__ingredients {
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content:center;
-    overflow:hidden;
-    padding:30px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  overflow: hidden;
+  padding: 30px 0;
 }
 .section__ingredients .section__ingredients-image {
-    width:100%;
-    margin:-30px 0;
+  width: 100%;
+  margin: -30px 0;
 }
 .section__ingredients .section__ingredients-image img {
-    width:100%;
-    vertical-align: middle;
+  width: 100%;
+  vertical-align: middle;
 }
 .section__ingredients .section__ingredients-post {
-    width:100%;
+  width: 100%;
 }
 .ingredients-post-holder {
-    padding: 0 45px;
+  padding: 0 45px;
 }
 .ingredients__post-list {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 .ingredients__post-list p {
-    padding:0 30px;
+  padding: 0 30px;
 }
 .ingredients__post-list p span::before {
-    margin:0 10px 0 -30px;
+  margin: 0 10px 0 -30px;
 }
 
 /* -------------------- About section style for min-width 400px ----------------- */
-@media screen and (min-width:400px){
-    .section__ingredients {
-        display:grid;
-        grid-template-columns: 1fr;
-        padding:30px 0;
-    }
-    .section__ingredients .section__ingredients-post {
-        width:100%;
-        padding:30px 0 0;
-    }
-    .ingredients-post-holder {
-        padding: 0 15px;
-    }
-    .section__ingredients .section__ingredients-image {
-        width:100%;
-        margin:0;
-    }
+@media screen and (min-width: 400px) {
+  .section__ingredients {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 30px 0;
+  }
+  .section__ingredients .section__ingredients-post {
+    width: 100%;
+    padding: 30px 0 0;
+  }
+  .ingredients-post-holder {
+    padding: 0 15px;
+  }
+  .section__ingredients .section__ingredients-image {
+    width: 100%;
+    margin: 0;
+  }
 }
 /* -------------------- About section style for min-width 810px ----------------- */
-@media screen and (min-width:810px){
-    .section__ingredients {
-        display:grid;
-        grid-template-columns: 1fr 1fr;
-        padding:30px 0;
-    }
-    .section__ingredients .section__ingredients-post {
-        width:100%;
-    }
-    .ingredients-post-holder {
-        padding: 0 15px;
-    }
-    .section__ingredients-image {
-        width:100%;
-        margin:-30px 0;
-        
-    }
+@media screen and (min-width: 810px) {
+  .section__ingredients {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 30px 0;
+  }
+  .section__ingredients .section__ingredients-post {
+    width: 100%;
+  }
+  .ingredients-post-holder {
+    padding: 0 15px;
+  }
+  .section__ingredients-image {
+    width: 100%;
+    margin: -30px 0;
+  }
 }

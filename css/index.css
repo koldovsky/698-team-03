@@ -1,7 +1,7 @@
 @import url(common.css);
 @import url(header.css);
 @import url(about.css);
-/**@import url(ourburgers.css); */
+@import url(ourburgers.css);
 @import url(ingredients.css);
 @import url(video.css);
 @import url(touches.css);
@@ -10,5 +10,5 @@
 @import url(catering_page.css);
 @import url(catering_request_blog.css);
 @import url(contact_us_index.css);
-/** @import url(bottom-carousel_index.css);*/
+@import url(bottom-carousel_index.css);
 @import url(footer.css);

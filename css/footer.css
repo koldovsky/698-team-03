@@ -222,9 +222,9 @@ input.footer-input__email:placeholder {
 }
 
 .footer-button_submit:hover {
-    background-color: var(--accent-main-bcgr-color);
-    transition: all 0.2s linear;
-  }
+  background-color: var(--accent-main-bcgr-color);
+  transition: all 0.2s linear;
+}
 
 @media (min-width: 810px) {
   .footer-button_submit {
@@ -232,14 +232,14 @@ input.footer-input__email:placeholder {
     padding: 8px 0;
   }
 
-.footer__rights {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 74%;
-}
+  .footer__rights {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 74%;
+  }
 
-.footer-email__container {
+  .footer-email__container {
     display: flex;
     align-items: flex-start;
   }
