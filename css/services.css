@@ -6,69 +6,83 @@ selector {
 */
 .section__services-text-promo {
     color: red;
+    font-size: 17px;
     font-family: "Permanent Marker", cursive;
-    display:flex;
-    flex-direction:row;
-    justify-content:center;
-    overflow:hidden;
- }
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    overflow: hidden;
+    margin: 0 0 25px;
+}
 
 
 .services-slogan-text {
-color: black;
-font-family: Rubik, "Permanent Marker", sans-serif;
-font-size:38px;
-display:flex;
-    flex-direction:row;
-    justify-content:center;
-    overflow:hidden;
- }
+    color: black;
+    font-family: Rubik, "Permanent Marker", sans-serif;
+    font-size: 38px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    overflow: hidden;
+    line-height: 1.1;
+    font-weight: 700;
+    margin: 0 0 25px;
+}
 
 
 .services-histori-text {
     color: black;
     font-family: Lato, sans-serif;
-    font-size:17px;
-    display:flex;
-    flex-direction:row;
-    justify-content:center;
+    font-size: 17px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-weight: 700;
+    margin: 0 0 25px;
 }
 
 
 .franchising-slogan-text {
-color: black;
-font-family: Rubik, sans-serif;
-font-size:30px;
-display:flex;
-justify-content:center;
-  }
+    color: black;
+    font-family: Rubik, sans-serif;
+    font-size: 30px;
+    display: flex;
+    font-weight: 700;
+    margin: 0 0 25px;
+}
 
 
-.franchising-histori-text{
+.franchising-histori-text {
     color: black;
     font-family: Lato, sans-serif;
-    font-size:17px;
-    display:flex;
-    flex-direction:row;
-    justify-content:center;
+    font-size: 17px;
+    display: flex;
+    flex-direction: row;
+    font-weight: 700;
+    margin: 0 0 25px;
 }
 
 .franchising-slogan-included {
     color: black;
     font-family: Lato, sans-serif;
-    font-size:17px;
-    display:flex;
-    flex-direction:row;
-    justify-content:center;
+    font-size: 17px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 25px;
 }
-.franchising-text-practical{
+
+.franchising-text-practical {
     color: black;
     font-family: Lato, sans-serif;
-    font-size:17px;
-    display:flex;
-    flex-direction:row;
-    justify-content:center;
+    font-size: 17px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 0 25px;
 }
+
+
+
 .franchising-button-link .button__franchising {
     background-color: var(--main-details-color);
     color: var(--white-color);
@@ -80,39 +94,52 @@ justify-content:center;
     border-radius: 25px;
     padding: 16px 28px;
     display: inline-block;
+    margin: 0 0 25px;
 }
-   .gatering-slogan-text{
+
+
+
+.gatering-slogan-text {
     color: black;
-   font-family: Rubik, sans-serif;
-font-size:30px;
-display:flex;
-justify-content:center
-   }
-   .gatering-histori-text{
+    font-family: Rubik, sans-serif;
+    font-size: 30px;
+    display: flex;
+    font-weight: 700;
+    margin: 0 0 25px;
+}
+
+.gatering-histori-text {
     color: black;
     font-family: Lato, sans-serif;
-    font-size:17px;
-    display:flex;
-    flex-direction:row;
-    justify-content:center
-   }
-   .gatering-slogan-party{
-   color: black;
+    font-size: 17px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-weight: 700;
+    margin: 0 0 25px;
+}
+
+.gatering-slogan-party {
+    color: black;
     font-family: Lato, sans-serif;
-    font-size:17px;
-    display:flex;
-    flex-direction:row;
-    justify-content:center}
-    .gatering-slogan-corporate{
-        color: black;
+    font-size: 17px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 25px;
+}
+
+.gatering-slogan-corporate {
+    color: black;
     font-family: Lato, sans-serif;
-    font-size:17px;
-    display:flex;
-    flex-direction:row;
-    justify-content:center;
-    }
-    .catering-button-link .button__catering{
-        background-color: var(--main-details-color);
+    font-size: 17px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 0 25px;
+}
+
+.catering-button-link .button__catering {
+    background-color:var(--main-details-color);
     color: var(--white-color);
     text-decoration: none;
     font-size: 16px;
@@ -122,4 +149,5 @@ justify-content:center
     border-radius: 25px;
     padding: 16px 28px;
     display: inline-block;
-    }
+    margin: 0 0 25px;
+}
