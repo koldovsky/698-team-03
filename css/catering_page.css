@@ -120,7 +120,7 @@
     line-height: 1.5;
 }
 
-/*====================================================================*/
+/*=====================================================*/
 .section__catering-cards {
     background-image: url(../img/catering-page-options-section-background.jpg);
     background-size: cover;
@@ -213,8 +213,8 @@
         justify-content: center;
     }
 }
-/*=====================*/
 
+/*=====================================================*/
 .section__delivery {
     /*padding: 90px 30px;*/
     box-sizing: border-box;
@@ -235,7 +235,6 @@
 .section__delivery_text-block {
     padding: 0px 20px 0px 30px;
 }
-
 
 .section__delivery_text-block_text {
     color: var(--subheadline-text-color);
@@ -308,4 +307,29 @@ iframe {
     }
 }
 
-        
+/*=====================================================*/
+
+.section__catering-form {
+    background-image: url(../img/catering-page-form-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section__catering_container {
+    width: 100%;
+    height: auto;
+}
+
+.catering__page_divider-bottom {
+    background-image: url(../img/catering-page-divider.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 69px;
+}
