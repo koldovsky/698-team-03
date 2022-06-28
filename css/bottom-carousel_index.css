@@ -1,10 +1,67 @@
 .bottom-carousel_section {
   width: 100%;
-  height: auto;
+  height: 360px;
   background-color: var(--slogan-text-color);
 }
 
-/*.bottom-carousel_index,
-.owl-carousel .owl-item {
-    items: 5;
+.bottom-carousel {
+  display: flex;
+  justify-content: space-between;
+}
+.bottom-carousel > div {
+  display: flex;
+  justify-content: center;
+}
+
+.bottom-carousel img {
+  height: 260px;
+}
+
+.bottom-carousel_slide-container {
+
+}
+
+/*arrow left*/
+/*====button====
+.section_contact_us-left_button-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 80.81px;
+  height: 25px;
+  margin: 25px 0px 0px 0px;
+  padding: 0;
+}
+
+.section_contact_us-left_button_content {
+  color: var(--white-color);
+  font-family: var(--subheadline-font-family);
+  font-size: 16.5px;
+  font-weight: 700;
+  width: 75.81px;
+  height: 19.8px;
+  padding: 16px 0px;
+  margin: 0;
+}
+
+a.section_contact_us-left_button {
+  background-color: var(--read-article-button-bgr-color);
+  color: var(--button-text-color);
+  text-decoration: none;
+  border-radius: 1px;
+  border-width: 1px;
+  border-radius: 25px;
+  display: inline-block;
+  width: 130.812px;
+  height: 49.8px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.section_contact_us-left_button:hover {
+  background-color: var(--white-color);
+  color: var(--button-background-color-on-hover);
 }*/
+
+
+/*arrow right*/

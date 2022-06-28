@@ -1,13 +1,13 @@
 (function () {
 
     const slides = [
-    `<div><img src="img/illustration-burger.jfif" alt="burger"/></div>`,
-    `<div><img src="img/illustration-holding-burger.jfif" alt="burger"/></div>`,
-    `<div><img src="img/illustration-salad.jfif" alt="salad"/></div>`,
-    `<div><img src="img/illustration-burger-holding.jfif" alt="burger"/></div>`,
-    `<div><img src="img/illustration-menu.jfif" alt="burger menu"/></div>`,
-    `<div><img src="img/illustration-burgers.jpg" alt="burgers"/></div>`,
-    `<div><img src="img/illustration-happy-burger.jfif" alt="burger"/></div>`,
+        `<div><img src="img/illustration-burger.jfif" alt="burger"/></div>`,
+        `<div><img src="img/illustration-holding-burger.jfif" alt="burger"/></div>`,
+        `<div><img src="img/illustration-salad.jfif" alt="salad"/></div>`,
+        `<div><img src="img/illustration-burger-holding.jfif" alt="burger"/></div>`,
+        `<div><img src="img/illustration-menu.jfif" alt="burger menu"/></div>`,
+        `<div><img src="img/illustration-burgers.jpg" alt="burgers"/></div>`,
+        `<div><img src="img/illustration-happy-burger.jfif" alt="burger"/></div>`,
     ]
 
     let slideIdx = 0;
@@ -22,6 +22,18 @@
         showCurrentSlide();
     }
 
+    function prevSlide() {
+        slideIdx = slideIdx - 1 < 0 ? slides.length - 1 : slideIdx - 1;
+        showCurrentSlide();
+    }
+
     setInterval(nextSlide, 4000);
+    showCurrentSlide();
+
+    const rightButton = document.querySelector('.bottom-carousel_section > div > button.btn-right');
+    rightButton.addEventListener('click', nextSlide);
+
+    const leftButton = document.querySelector('.bottom-carousel_section > div > button.btn-left');
+    leftButton.addEventListener('click', prevSlide);
 
 })()
