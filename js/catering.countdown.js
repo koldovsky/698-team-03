@@ -1,3 +1,4 @@
+( function () {
 const days = document.querySelector('.days');
 const hours = document.querySelector('.hours');
 const minutes = document.querySelector('.minutes');
@@ -23,3 +24,4 @@ function updateCountdown() {
 }
 
 setInterval(updateCountdown, 1000);
+}) ();
