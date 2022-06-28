@@ -238,3 +238,7 @@ fieldset {
   min-height: 620px;
   background-repeat: no-repeat;
 }
+.countdown {
+  display: flex;
+  justify-content: center;
+}
