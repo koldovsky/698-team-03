@@ -235,11 +235,11 @@ fieldset {
   background-image: url(../img/blog_background.jpg);
   background-size: cover;
   background-position: center;
-  min-height: 620px;
-  max-height: 700px;
+  min-height: 400px;
+  max-height: 500px;
   background-repeat: no-repeat;
 }
 .countdown {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
