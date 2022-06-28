@@ -231,3 +231,10 @@ fieldset {
 .button__read__article:hover {
   background-color: var(--button-background-color-on-hover);
 }
+.catering__countdown {
+  background-image: url(../img/blog_background.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 620px;
+  background-repeat: no-repeat;
+}
