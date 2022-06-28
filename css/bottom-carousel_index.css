@@ -34,6 +34,10 @@
   border-radius: 8%;
 }
 
+.bottom-carousel_slide-container img:hover {
+  transform: scale(1.1);
+}
+
 .btn-left {
   display: flex;
   align-self: center;
