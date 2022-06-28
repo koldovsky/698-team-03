@@ -3,7 +3,9 @@ const hours = document.querySelector('.hours');
 const minutes = document.querySelector('.minutes');
 const seconds = document.querySelector('.seconds');
 
-const discountTime = new Date(`September 01 2022 00:00:00`);
+const currentYear = new Date().getFullYear();
+
+const discountTime = new Date(`September 01 ${currentYear} 00:00:00`);
 
 function updateCountdown() {
   const currentTime = new Date();

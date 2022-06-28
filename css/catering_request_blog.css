@@ -236,6 +236,7 @@ fieldset {
   background-size: cover;
   background-position: center;
   min-height: 620px;
+  max-height: 700px;
   background-repeat: no-repeat;
 }
 .countdown {
