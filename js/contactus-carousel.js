@@ -18,7 +18,7 @@
         if (window.matchMedia ('(min-width: 400px)').matches) {
             const secondSlideIdx = slideIdx + 1 >= slides.length ? 0 : slideIdx + 1;
             slideContainer.innerHTML += slides[secondSlideIdx];
-            if (window.matchMedia ('(min-width: 800px)').matches) {
+            if (window.matchMedia ('(min-width: 670px)').matches) {
                 const thirdSlideIdx = secondSlideIdx + 1 >= slides.length ? 0 : secondSlideIdx + 1;
                 slideContainer.innerHTML += slides[thirdSlideIdx]; 
                 if (window.matchMedia ('(min-width: 1000px)').matches) {
