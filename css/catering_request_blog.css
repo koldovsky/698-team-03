@@ -249,12 +249,12 @@ fieldset {
 }
 .time {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   margin: 15px;
 }
 .countdown {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
