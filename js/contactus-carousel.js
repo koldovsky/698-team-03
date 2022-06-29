@@ -7,7 +7,7 @@
         `<div><img src="img/illustration-burger-holding.jfif" alt="burger"/></div>`,
         `<div><img src="img/illustration-menu.jfif" alt="burger menu"/></div>`,
         `<div><img src="img/illustration-burgers.jpg" alt="burgers"/></div>`,
-        `<div><img src="img/illustration-happy-burger.jfif" alt="burger"/></div>`,
+        `<div><img src="img/illustration-happy-burger.jfif" alt="burger"/></div>`
     ]
 
     let slideIdx = 0;
