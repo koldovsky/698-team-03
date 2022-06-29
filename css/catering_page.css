@@ -326,13 +326,13 @@ iframe {
 .section__catering_container {
 display: flex;
 justify-content: space-between;
-padding: 60px 0 40px 0;
+padding: 60px 175px 40px 0;
 }
 
 
 
 .section__catering-form {
-  background-image: url(../img/catering-page-form-background.jpg);
+  background-image: url(../img/catering-page-form-background2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -340,11 +340,7 @@ padding: 60px 0 40px 0;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  justify-content:flex-end;
-}
-
-.section__catering_container {
-
+  
 }
 
 .catering__page_divider-bottom {
