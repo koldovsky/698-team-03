@@ -75,17 +75,18 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: var(--main-bcgr-color);
   z-index: 2;
   transition: top 0.3s ease-in;
-  padding-top: 100px;
+  padding-top: 0px;
   transition: top 0.3s ease-in 0.1s;
   overflow: hidden;
   margin: auto;
+  background-color: var(--main-bcgr-color);
 }
 
 .header-navigation__wrapper.active {
   top: 0;
+  padding-top: 100px;
 }
 
 .lock {
