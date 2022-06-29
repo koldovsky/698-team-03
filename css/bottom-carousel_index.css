@@ -47,6 +47,11 @@
   height: 32px;
   margin-left: 10px;
   background-color: var(--main-bcgr-color);
+  /*font-family: */
+  color: var(--white-color);
+  font-size: 20px;
+  font-weight: 50;
+  text-align: center;
   opacity: 0.7;
   border-radius: 50%;
   border: none;

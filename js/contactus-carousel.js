@@ -36,8 +36,9 @@
         }
     }
 
-    function nextSlide() {
+    function nextSlide(/*e*/) {
         slideIdx = slideIdx + 1 >= slides.length ? 0 : slideIdx + 1;
+       /* e.preventDefault();*/
         showCurrentSlide();
     }
 
