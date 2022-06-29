@@ -614,68 +614,16 @@
             </div>
           </div>
         </div>
-      </section>
-      <section class="bottom-carousel_index">
-        <div class="owl-carousel">
-          <div>
-            <img
-              src="img/illustration-burger.jfif"
-              alt="burger"
-              width="246"
-              height="253"
-            />
-          </div>
-          <div>
-            <img
-              src="img/illustration-holding-burger.jfif"
-              alt="burger"
-              width="246"
-              height="253"
-            />
-          </div>
-          <div>
-            <img
-              src="img/illustration-salad.jfif"
-              alt="salad"
-              width="246"
-              height="253"
-            />
-          </div>
-          <div>
-            <img
-              src="img/illustration-burger-holding.jfif"
-              alt="burger"
-              width="246"
-              height="253"
-            />
-          </div>
-          <div>
-            <img
-              src="img/illustration-menu.jfif"
-              alt="burger menu"
-              width="246"
-              height="253"
-            />
-          </div>
-          <div>
-            <img
-              src="img/illustration-burgers.jpg"
-              alt="burgers"
-              width="246"
-              height="253"
-            />
-          </div>
-          <div>
-            <img
-              src="img/illustration-happy-burger.jfif"
-              alt="burger"
-              width="246"
-              height="253"
-            />
-          </div>
+    </section>
+    <!--bottom carousel-->
+    <section class="bottom-carousel_section">
+        <div class="bottom-carousel">
+            <button class="btn-left"></button>
+            <div class="bottom-carousel_slide-container"></div>
+            <button class="btn-right"></button>
         </div>
-      </section>
-      <!-- YULІІА MELNYК end -->
+    </section>
+<!--  YULІІА MELNYК end -->
     </main>
     <!-- Uliana Kolodii start -->
     <footer>
@@ -758,7 +706,31 @@
       crossorigin="anonymous"
     ></script>
     <script src="js/owl.carousel.min.js"></script>
-    <!-- added Iryna. Dont delete. If it something wrong, please, let comment // Yuliia: I've set values form my bottom carousel to script below-->
+    <!-- added Iryna. Dont delete. If it something wrong, please, let comment // Yuliia: I've written js for my bottom carousel. You may update script below-->
+    <!--<script>$(document).ready(function () {
+            $(".owl-carousel").owlCarousel({
+                items: 5,
+                margin: 40,
+                loop: false,
+                center: false,
+                mouseDrag: true,
+                touchDrag: true,
+                pullDrag: true,
+                freeDrag: false,
+                stagePadding: 0,
+                mergeFit: true,
+                nav: true,
+                rewind: false,
+                slideTransition: 'ease-out',
+                dots: false,
+                callbacks: false,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    400: {
+                        items: 2
+                    },
     <script>
       $(document).ready(function () {
         $(".owl-carousel").owlCarousel({
@@ -802,8 +774,9 @@
           navContainer: ".myNav",
           checkVisibility: false,
         });
-      });
-    </script>
+      })
+    </script>-->
+    <script src="js/contactus-carousel.js"></script><!--bottom carousel-->
     <script src="js/catering.countdown.js"></script>
     <script src="js/header__burger-menu.js"></script>
   </body>

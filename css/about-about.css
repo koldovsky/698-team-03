@@ -51,12 +51,12 @@
   font-weight: 700;
   padding: 4px 9px;
   border-radius: 50%;
+  z-index: 1;
 }
 .about__team-carusel-holder .team-next-btn {
   left: auto;
   right: -10px;
 }
-
 .page__about-main .about__section-team-container .about__team-carusel {
   flex-grow: 3;
   display: grid;
@@ -152,7 +152,7 @@
 }
 
 /* ========= Styles for screen size 400 =========== */
-@media screen and (min-width: 400px) {
+@media (min-width: 400px) {
   /* about section */
   .page__about-main .section__about {
     display: grid;
@@ -166,8 +166,8 @@
   }
   .page__about-main .about__section-team-container .about__team-carusel {
     flex-grow: 3;
-    display: grid;
-    grid-template-columns: 1fr;
+    display:flex;
+    justify-content: center;
   }
   /* ======== Truck section ======== */
   .about__section-truck {
@@ -191,7 +191,7 @@
   }
 }
 /* ========= Styles for screen size 640 =========== */
-@media screen and (min-width: 640px) {
+@media  (min-width: 640px) {
   /* about section */
   .page__about-main .section__about {
     display: grid;
@@ -205,8 +205,8 @@
   }
   .page__about-main .about__section-team-container .about__team-carusel {
     flex-grow: 3;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display:flex;
+    justify-content: space-between;
   }
 
   /* taste section */
@@ -217,7 +217,7 @@
   }
 }
 /* ========= Styles for screen size 810 =========== */
-@media screen and (min-width: 810px) {
+@media (min-width: 810px) {
   /* about section */
   .page__about-main .section__about {
     display: grid;
@@ -231,8 +231,8 @@
   }
   .page__about-main .about__section-team-container .about__team-carusel {
     flex-grow: 3;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display:flex;
+    justify-content: space-between;
   }
   /* ======== Truck section ======== */
   .about__section-truck {
@@ -259,7 +259,7 @@
   }
 }
 /* ========= Styles for screen size 990 =========== */
-@media screen and (min-width: 990px) {
+@media (min-width: 990px) {
   /* about section */
   .page__about-main .section__about {
     display: grid;
@@ -269,16 +269,16 @@
   .page__about-main .about__section-team-container {
     display: flex;
     flex-direction: row;
-    padding: 50px 30px 150px;
+    padding: 50px 130px 150px;
   }
   .page__about-main .about__section-team-container .about__team-post {
     flex-grow: 1;
     margin: 0 30px 0 0;
   }
   .page__about-main .about__section-team-container .about__team-carusel {
-    flex-grow: 3;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
   }
   .about__team-carusel .about__team-carusel-item {
     max-width: 100%;
@@ -288,5 +288,33 @@
     width: 40%;
     background-color: var(--bg-taste-post-color);
     color: var(--text-taste-post-color);
+  }
+}
+/* ============= animated classes for carousel slides ================ */
+.show_slide {
+  animation-name: opacity;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+}
+@keyframes opacity {
+  0% {
+    opacity:0;
+  },
+  100% {
+    opacity:1;
+  }
+}
+
+.hide_slide {
+  animation-name: opacity2;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+}
+@keyframes opacity2 {
+  0% {
+    opacity:1;
+  },
+  100% {
+    opacity:0;
   }
 }
