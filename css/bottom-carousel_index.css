@@ -1,5 +1,4 @@
 .bottom-carousel_section {
-  /*width: 100%;*/
   height: 360px;
   background-color: var(--slogan-text-color);
   display:flex;
@@ -43,15 +42,17 @@
 .btn-left {
   display: flex;
   align-self: center;
+  justify-content: center;
   width: 32px;
   height: 32px;
   margin-left: 10px;
   background-color: var(--main-bcgr-color);
-  /*font-family: */
-  color: var(--white-color);
-  font-size: 20px;
-  font-weight: 50;
+  font-family: var(--headline-font-family);
+  color: var(--subheadline-font-family);
+  font-size: 30px;
+  font-weight: 700;
   text-align: center;
+  text-decoration: transparent;
   opacity: 0.7;
   border-radius: 50%;
   border: none;
@@ -69,9 +70,16 @@
 .btn-right {
   display: flex;
   align-self: center;
+  justify-content: center;
   width: 32px;
   height: 32px;
   background-color: var(--main-bcgr-color);
+  font-family: var(--headline-font-family);
+  color: var(--subheadline-font-family);
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: transparent;
   opacity: 0.7;
   border-radius: 50%;
   border: none;
