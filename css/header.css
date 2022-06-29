@@ -88,6 +88,10 @@
   top: 0;
 }
 
+.lock {
+  overflow: hidden;
+}
+
 .header__nav-menu__mobile {
   color: white;
   font-family: var(--subheadline-font-family);
@@ -102,7 +106,7 @@
 }
 
 .header__nav-menu {
-display: none;
+  display: none;
 }
 
 .menu-link {
@@ -220,7 +224,7 @@ display: none;
     display: none;
   }
 
-    .general__information__desktop {
+  .general__information__desktop {
     height: 50px;
     background-color: var(--accent-main-bcgr-color);
     color: white;
@@ -259,7 +263,6 @@ display: none;
     padding: 0 50px;
   }
 
-
   .header__nav-logo,
   .header__nav-menu,
   .header__social-networks {
@@ -281,7 +284,7 @@ display: none;
   }
 
   .header__nav-menu__mobile {
-  display: none;
+    display: none;
   }
 
   .header__nav-logo {
