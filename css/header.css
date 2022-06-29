@@ -75,17 +75,22 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: var(--main-bcgr-color);
   z-index: 2;
   transition: top 0.3s ease-in;
-  padding-top: 100px;
+  padding-top: 0px;
   transition: top 0.3s ease-in 0.1s;
   overflow: hidden;
   margin: auto;
+  background-color: var(--main-bcgr-color);
 }
 
 .header-navigation__wrapper.active {
   top: 0;
+  padding-top: 100px;
+}
+
+.lock {
+  overflow: hidden;
 }
 
 .header__nav-menu__mobile {
@@ -102,7 +107,7 @@
 }
 
 .header__nav-menu {
-display: none;
+  display: none;
 }
 
 .menu-link {
@@ -220,7 +225,7 @@ display: none;
     display: none;
   }
 
-    .general__information__desktop {
+  .general__information__desktop {
     height: 50px;
     background-color: var(--accent-main-bcgr-color);
     color: white;
@@ -259,7 +264,6 @@ display: none;
     padding: 0 50px;
   }
 
-
   .header__nav-logo,
   .header__nav-menu,
   .header__social-networks {
@@ -281,7 +285,7 @@ display: none;
   }
 
   .header__nav-menu__mobile {
-  display: none;
+    display: none;
   }
 
   .header__nav-logo {
