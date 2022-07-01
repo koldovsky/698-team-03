@@ -78,17 +78,25 @@ selector {
 }
 
 .franchising-button-link .button__franchising {
-  background-color: var(--main-details-color);
-  color: var(--white-color);
+  background-color: var(--read-article-button-bgr-color);
+  color: var(--button-text-color);
   text-decoration: none;
-  font-size: 16px;
-  line-height: 1.2em;
-  font-weight: 700;
+  font-size: 16.5px;
+  font-weight: 400;
   font-family: var(--subheadline-font-family);
-  border-radius: 25px;
   padding: 16px 28px;
-  display: inline-block;
-  margin: 0 0 25px;
+  border-radius: 25px;
+  margin-top: 20px;
+  width: 35%;
+  text-align: center;
+  cursor: pointer;
+  color: var(--white-color);
+  display: inline-block; 
+
+}
+
+.button__franchising:hover {
+  background-color: var(--button-background-color-on-hover);
 }
 
 .gatering-slogan-text {
@@ -131,15 +139,22 @@ selector {
 }
 
 .catering-button-link .button__catering {
-  background-color: var(--main-details-color);
-  color: var(--white-color);
+  background-color: var(--read-article-button-bgr-color);
+  color: var(--button-text-color);
   text-decoration: none;
   font-size: 16px;
-  line-height: 1.2em;
-  font-weight: 700;
+  font-weight: 400;
   font-family: var(--subheadline-font-family);
-  border-radius: 25px;
-  padding: 16px 28px;
-  display: inline-block;
-  margin: 0 0 25px;
+  padding: 16px 20px;
+  border-radius: 20px;
+  margin-top: 20px;
+  width: 35%;
+  text-align: center;
+  cursor: pointer;
+  color: var(--white-color);
+  display: inline-block; 
+}
+
+.button__catering:hover {
+  background-color: var(--button-background-color-on-hover);
 }
