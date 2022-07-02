@@ -35,8 +35,10 @@
 }
 
 owl-next {
+  padding: 20px auto;
 }
 owl-prev {
+  padding: 20px auto;
 }
 .myNav {
 }

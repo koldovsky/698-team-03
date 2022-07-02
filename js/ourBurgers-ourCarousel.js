@@ -1,7 +1,7 @@
 (function(){
  $(document).ready(function () {
     $(".owl-carousel").owlCarousel({
-        items: 5,
+        items: 4,
         margin: 40,
         loop: false,
         center: false,
@@ -10,28 +10,29 @@
         pullDrag: true,
         freeDrag: false,
         stagePadding: 0,
+        autoWidth: false,
         mergeFit: true,
         nav: true,
         rewind: false,
+        navText: ['Prev', 'Next'],
+        navElement: 'span',
+        slideBy: 1,
         slideTransition: "ease-out",
-        dots: false,
+        dots: true,
         callbacks: false,
         responsive: {
-            0: {
-                items: 1,
+            340: {
+                 items: 1,
                },
-            400: {
+            767: {
                  items: 2,
                },
-            500: {
-                 items: 3,
-               },
-            600: {
-                 items: 4,
-               },
+            990: {
+                item: 4
+            }
              },
-        navContainer: ".myNav",
-        checkVisibility: false,
+        //navContainer: ".myNav",
+        //checkVisibility: true,
            });
          })
 })();
