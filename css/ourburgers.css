@@ -16,6 +16,8 @@
 }
 .section__ourBurgers-carusel {
   text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .owl-item {
@@ -33,8 +35,10 @@
 }
 
 owl-next {
+  padding: 20px auto;
 }
 owl-prev {
+  padding: 20px auto;
 }
 .myNav {
 }
