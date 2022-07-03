@@ -87,7 +87,6 @@ selector {
   padding: 16px 28px;
   border-radius: 25px;
   margin-top: 20px;
-  width: 35%;
   text-align: center;
   cursor: pointer;
   color: var(--white-color);
@@ -148,7 +147,6 @@ selector {
   padding: 16px 20px;
   border-radius: 20px;
   margin-top: 20px;
-  width: 35%;
   text-align: center;
   cursor: pointer;
   color: var(--white-color);
@@ -157,4 +155,9 @@ selector {
 
 .button__catering:hover {
   background-color: var(--button-background-color-on-hover);
+}
+
+.section__services {
+  background-image: url( /img/fon.servise.jpg);
+  background-size: cover;
 }
