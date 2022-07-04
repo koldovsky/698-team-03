@@ -1,37 +1,39 @@
 .section__ourBurgers {
   background-image: url(../img/bg-ourburgers.jpg);
-  background-position: 50% auto;
-  background-size: 100% auto;
-  background-repeat: no-repeat;
-}
-
-.section__ourBurgers {
-  padding: 0px 0px 50px 0px;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
 }
 .ourBurgers__title {
   text-align: center;
+  padding: 200px;
 }
 .section__ourBurgers-header p {
-  text-align: center;
+  padding: 20px;
 }
 .section__ourBurgers-carusel {
-  text-align: center;
+  position: relative;
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0 60px;
 }
-
-.owl-item {
+.owl-item h3{
+font-family: var(--headline-font-family);
+font-size: 30px;
+font-weight: 600;
+margin-bottom: 20px;
 }
 .owl-item p {
   color: var(--paragraph-text-color);
   font-family: var(--subheadline-font-family);
   font-size: 17px;
+  margin-bottom: 20px;
 }
 .owl-item span {
   color: var(--main-details-color);
-  font-size: 23px;
-  font-style: inherit;
-  padding: 0px 15px 0px 0px;
+  font-family: var(--headline-font-family);
+  font-size: 36px;
+  font-weight: 700;
 }
 
 owl-next {
