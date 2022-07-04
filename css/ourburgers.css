@@ -1,12 +1,11 @@
 .section__ourBurgers {
   background-image: url(../img/bg-ourburgers.jpg);
-  background-position: center;
+  background-position: top;
   background-size: cover;
   text-align: center;
 }
 .ourBurgers__title {
   text-align: center;
-  padding: 200px;
 }
 .section__ourBurgers-header p {
   padding: 20px;
