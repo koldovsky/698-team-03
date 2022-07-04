@@ -347,6 +347,15 @@ iframe {
   height: 815px;
 }
 
+.my-form-status_container {
+  height: 50px;
+  font-family: var(--permanent-marker-font);
+  color: var(--text-color-h2);
+  font-size: 18px;
+  font-weight: 80;
+  text-align: -webkit-center;
+}
+
 .catering__page_divider-bottom {
   background-image: url(../img/catering-page-divider.svg);
   background-size: cover;

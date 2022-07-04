@@ -12,7 +12,7 @@
             }
         }).then(response => {
             if (response.ok) {
-                status.innerHTML = "Thanks for your order!";
+                status.innerHTML = "Thanks for your order:)";
                 form.reset()
             } else {
                 response.json().then(data => {
