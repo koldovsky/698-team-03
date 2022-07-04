@@ -1,44 +1,80 @@
 .section__ourBurgers {
   background-image: url(../img/bg-ourburgers.jpg);
-  background-position: 50% auto;
-  background-size: 100% auto;
-  background-repeat: no-repeat;
-}
-
-.section__ourBurgers {
-  padding: 0px 0px 50px 0px;
+  background-position: top;
+  background-size: cover;
+  text-align: center;
 }
 .ourBurgers__title {
   text-align: center;
 }
 .section__ourBurgers-header p {
-  text-align: center;
+  padding: 20px;
 }
 .section__ourBurgers-carusel {
-  text-align: center;
+  position: relative;
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0 60px;
 }
-
-.owl-item {
+.owl-item h3{
+font-family: var(--headline-font-family);
+font-size: 30px;
+font-weight: 600;
+margin-bottom: 20px;
 }
 .owl-item p {
   color: var(--paragraph-text-color);
   font-family: var(--subheadline-font-family);
   font-size: 17px;
+  margin-bottom: 20px;
 }
 .owl-item span {
   color: var(--main-details-color);
-  font-size: 23px;
-  font-style: inherit;
-  padding: 0px 15px 0px 0px;
+  font-family: var(--headline-font-family);
+  font-size: 36px;
+  font-weight: 700;
 }
-
-owl-next {
-  padding: 20px auto;
+.myNav button{
+  position: absolute;
+  top: 50%;
+  color: var(--accent-main-bcgr-color);
+  font-size: 50px;
+  background: none;
+  border: none;
 }
-owl-prev {
-  padding: 20px auto;
+.owl-next {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 30px;
+  padding: 0 0 5px 4px;
 }
-.myNav {
+.owl-prev {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 30px;
+  padding: 0 2px 5px 0px;
+}
+@media (max-width: 1200px) {
+  .myNav button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: var(--accent-main-bcgr-color);
+    color: grey; 
+  }
+}
+@media (max-width: 768px) {
+  .myNav button {
+    font-size: 20px;
+    width: 20px;
+    height: 20px;
+  }
+  .owl-next{
+    padding: 0 0 2px 1px;
+  }
+  .owl-prev{
+    padding: 0 1px 2px 0;
+  }
 }

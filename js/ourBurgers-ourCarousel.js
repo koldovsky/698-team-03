@@ -3,36 +3,24 @@
     $(".owl-carousel").owlCarousel({
         items: 4,
         margin: 40,
-        loop: false,
-        center: false,
-        mouseDrag: true,
-        touchDrag: true,
-        pullDrag: true,
-        freeDrag: false,
-        stagePadding: 0,
-        autoWidth: false,
-        mergeFit: true,
         nav: true,
-        rewind: false,
-        navText: ['Prev', 'Next'],
-        navElement: 'span',
-        slideBy: 1,
         slideTransition: "ease-out",
-        dots: true,
+        dots: false,
         callbacks: false,
         responsive: {
-            340: {
+            0: {
                  items: 1,
                },
-            767: {
+            648: {
                  items: 2,
                },
-            990: {
+            872: {
                 item: 4
             }
              },
-        //navContainer: ".myNav",
-        //checkVisibility: true,
+        responsiveBaseElement: '.section__ourBurgers-carusel', //val
+        navContainer: '.myNav',
+        checkVisibility: false,
            });
          })
 })();
