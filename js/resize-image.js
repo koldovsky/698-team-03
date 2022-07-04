@@ -1,9 +1,9 @@
 (function(){
     
     function setImageSize(){
-        const img = document.querySelector('.section__ingredients-image img');
-        const textContainer = document.querySelector('.section__ingredients-post');
-        const textBlock = document.querySelector(".ingredients-post-holder");
+        const img = document.querySelector('.resize-image'); 
+        const textContainer = document.querySelector('.resize-post-container');
+        const textBlock = document.querySelector(".resize-post-text"); 
         if(window.matchMedia('(min-width:810px)').matches){
             if(textBlock.offsetHeight < textContainer.offsetHeight){
                 textContainer.style.height = textBlock.offsetHeight+"px";
