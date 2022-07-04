@@ -43,18 +43,17 @@ selector {
   color: black;
   font-family: Rubik, sans-serif;
   font-size: 30px;
-  display: flex;
   font-weight: 700;
+  justify-content: center;
   margin: 0 0 25px;
+  
 }
-
 .franchising-histori-text {
   color: black;
   font-family: Lato, sans-serif;
   font-size: 17px;
-  display: flex;
-  flex-direction: row;
   font-weight: 700;
+  justify-content: center;
   margin: 0 0 25px;
 }
 
@@ -62,8 +61,6 @@ selector {
   color: black;
   font-family: Lato, sans-serif;
   font-size: 17px;
-  display: flex;
-  flex-direction: row;
   margin: 0 0 25px;
 }
 
@@ -71,8 +68,6 @@ selector {
   color: black;
   font-family: Lato, sans-serif;
   font-size: 17px;
-  display: flex;
-  flex-direction: row;
   justify-content: center;
   margin: 0 0 25px;
 }
@@ -96,6 +91,15 @@ selector {
 
 .button__franchising:hover {
   background-color: var(--button-background-color-on-hover);
+}
+@media screen and (min-width: 810px) {
+.section_franchising {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  overflow: hidden;
+  padding: 30px 0;
+}
 }
 
 .gatering-slogan-text {
@@ -160,4 +164,16 @@ selector {
 .section__services {
   background-image: url( /img/fon.servise.jpg);
   background-size: cover;
+}
+.container {
+  max-width: 980px;
+  margin: auto;
+}
+@media screen and (min-width: 768px)   {  
+  .franchising-slogan-text {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 30px 0;
+  }
+  
 }
