@@ -225,6 +225,8 @@
               <p><span>$20.00</span></p>
             </div>
           </div>
+          <div class="myNav">
+          </div>
         </div>
       </section>
       <!--Iryna Kukhtyk end -->
@@ -233,10 +235,10 @@
       <!-- Mashyna Olena start === section Ingredients -->
       <section class="section__ingredients section">
         <div class="section__ingredients-image">
-          <img src="img/img-ingredients.jpg" alt="Two tasty burgers" />
+          <img src="img/img-ingredients.jpg" alt="Two tasty burgers" class="resize-image" />
         </div>
-        <div class="section__ingredients-post">
-          <div class="ingredients-post-holder">
+        <div class="section__ingredients-post resize-post-container">
+          <div class="ingredients-post-holder resize-post-text">
             <h2 class="section__ingredients-post-heading section__heading">
               INGREDIENTS
             </h2>
@@ -272,9 +274,10 @@
           <p class="services-histori-text">
             We not only prepare the most delicious burgers but also offer
             services for partners and our customers. Check them out below and
-            feel free to contact us
+            feel free to contact us.
           </p>
-        </div>
+        </div>        
+        <div class="section__franchising">
         <div class="section__franchising-img">
           <img src="img/Franchising.jpg" width="512" alt="Franchising" />
         </div>
@@ -284,19 +287,19 @@
             The easiestr way to open a profitable business and start earning
             right now!
           </p>
-          <p class="franchising-slogan-included">
-            <span>Full support included</span>
-          </p>
+          <p class="franchising-slogan-included"> <img src="img/icon.jpeg" width="25" alt="icond"/>
+           Full support included  </p>
           <p class="franchising-text-practical">
             Want to become your own boss? With years of practical experience and
             well-established Freddy Burgers brand recognition in our area, we
             are proud to offer extensive franchise opportunities.
           </p>
-        </div>
-
-        <div class="franchising-button-link">
+                 <div class="franchising-button-link">
           <a class="button__franchising" href="#" target="_blank">Learn More</a>
-        </div>
+              </div>   
+            </div>     
+          </div>             
+                <fieldset>
         <div class="section__Gatering-img">
           <img src="img/Gatering.jpg" width="512" alt="Catering" />
         </div>
@@ -306,8 +309,8 @@
             Surprise your guests with juicy burgers and save on the event menu
             with our special offers!
           </p>
-          <p class="gatering-slogan-party">
-            <span>Your party, our food from entrees to desserts</span>
+          <p class="gatering-slogan-party"><img src="img/icon.jpeg" width="30" alt="icond"/>
+            Your party, our food from entrees to desserts
           </p>
           <p class="gatering-slogan-corporate">
             If you are a burger lover and plan to arrange your party or
@@ -319,11 +322,13 @@
             <a class="button__catering" href="#" target="_blank">Learn More</a>
           </div>
         </div>
+      </fieldset>
       </section>
       <!-- Ulyana Kravets end -->
       <!-- Marin Merza start -->
       <!-- Marin Merza end -->
       <!-- Andrii Kolesnyk start -->
+      <!--
       <section class="video__showcase">
         <div class="video__showcase-background"></div>
         <div class="video__showcase-preparation">
@@ -365,8 +370,10 @@
           <img src="img/clock.png" alt="clock" width="50" />
         </div>
       </section>
+-->
       <!-- Andrii Kolesnyk end -->
       <!-- Andrii Kolesnyk start -->
+      <!--
       <section class="app">
         <div class="ourappp__background">
           <img src="img/app_background.png" alt="background" />
@@ -406,6 +413,7 @@
           <img src="img/download_appstore.png" alt="appstore" />
         </div>
       </section>
+    -->
       <!-- Andrii Kolesnyk end -->
       <!-- Oksana Kukalets start -->
       <section class="catering__request">
@@ -703,45 +711,9 @@
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
     crossorigin="anonymous"></script>
     <script src="js/owl.carousel.min.js"></script>
-    <!-- added Iryna. Dont delete. If it something wrong, please, let comment // Yuliia: I've written js for my bottom carousel. You may update script below-->
- <script>
-      $(document).ready(function () {
-        $(".owl-carousel").owlCarousel({
-          items: 5,
-          margin: 40,
-          loop: false,
-          center: false,
-          mouseDrag: true,
-          touchDrag: true,
-          pullDrag: true,
-          freeDrag: false,
-          stagePadding: 0,
-          mergeFit: true,
-          nav: true,
-          rewind: false,
-          slideTransition: "ease-out",
-          dots: false,
-          callbacks: false,
-          responsive: {
-            0: {
-              items: 1,
-            },
-            400: {
-              items: 2,
-            },
-            500: {
-              items: 3,
-            },
-            600: {
-              items: 4,
-            },
-          },
-          navContainer: ".myNav",
-          checkVisibility: false,
-        });
-      })
-    </script>
-   <script src="js/contactus-carousel.js"></script><!--bottom carousel-->
+    <script src="js/resize-image.js"></script> <!-- resize image in Ingredient block -->
+    <script src="js/ourBurgers-ourCarousel.js"></script> <!--ourBurgers Carousel-->
+    <script src="js/contactus-carousel.js"></script><!--bottom carousel-->
     <script src="js/catering.countdown.js"></script>
     <script src="js/header__burger-menu.js"></script>
   </body>

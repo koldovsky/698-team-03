@@ -9,9 +9,11 @@
 }
 .page__about-main .section__about .section__about-image {
   width: 100%;
+  overflow:hidden;
 }
 .page__about-main .section__about .section__about-image img {
   width: 100%;
+  vertical-align: middle;
 }
 .page__about-main .section__about .section__about-main {
   width: 100%;
