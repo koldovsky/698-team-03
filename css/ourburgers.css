@@ -35,12 +35,25 @@ margin-bottom: 20px;
   font-size: 36px;
   font-weight: 700;
 }
-
-owl-next {
-  padding: 20px auto;
+.myNav button{
+  position: absolute;
+  top: 50%;
+  color: var(--accent-main-bcgr-color);
+  font-size: 50px;
+  background: none;
+  border: none;
 }
-owl-prev {
-  padding: 20px auto;
+.owl-next {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 30px;
+  padding: 0 0 5px 4px;
 }
-.myNav {
+.owl-prev {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 30px;
+  padding: 0 2px 5px 0px;
 }
