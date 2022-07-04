@@ -327,24 +327,35 @@ iframe {
   flex-wrap: wrap;
 }
 
-
 .section__catering_container {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
 
-/*@media (min-width: 810px) {
-  .catering__request__form {
-    align-items: flex-start;
-    justify-content: center;
-    padding-left: 10%;
-  }
-}*/
-
-.catering__request__form {
+.catering-page__request__form {
+  align-items: flex-start;
+  justify-content: center;
+  padding-left: 10%;
   width: 570px;
   height: 815px;
+  margin-top: 50px;
+  padding-left: 100px;
+}
+
+.catering-page_form-box {
+  margin: 80px 0px 0px 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+@media (min-width: 400px) {
+  .catering-page_form-box {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
 }
 
 .my-form-status_container {
