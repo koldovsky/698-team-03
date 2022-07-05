@@ -130,8 +130,9 @@
                     <div class="section__catering-cards_cards-container">
                         <div class="section__catering-cards_card-block">
                             <div class="img-catering_holder">
-                                <div class="img-catering_holder-container"><img class="section__catering-cards_card-image" src="img/catering-delivery-icon.svg"
-                                alt="delivery icon"></div>
+                                <div class="img-catering_holder-container"><img
+                                        class="section__catering-cards_card-image" src="img/catering-delivery-icon.svg"
+                                        alt="delivery icon"></div>
                             </div>
                             <h3 class="section__catering-cards_card-title">Delivery</h3>
                             <p class="section__catering-cards_card-subtitle">
@@ -155,8 +156,9 @@
                         </div>
                         <div class="section__catering-cards_card-block">
                             <div class="img-catering_holder">
-                                <div class="img-catering_holder-container"><img class="section__catering-cards_card-image" src="img/catering-food-truck-icon.svg"
-                                alt="food truck icon"></div>
+                                <div class="img-catering_holder-container"><img
+                                        class="section__catering-cards_card-image"
+                                        src="img/catering-food-truck-icon.svg" alt="food truck icon"></div>
                             </div>
                             <h3 class="section__catering-cards_card-title">Truck</h3>
                             <p class="section__catering-cards_card-subtitle">
@@ -200,27 +202,32 @@
             </section>
             <section class="section__catering-form">
                 <div class="section__catering_container">
-                    <div class="catering-form_left-empty-part"></div>
-                    <div class="catering-form_container"><form class="catering__request__form" action="https://formspree.io/f/xjvlzbvp" method="post"></div>
-                        <fieldset>
-                            <h2 class="form__header">REQUEST</h2>
-                            <p class="form__headline">Fill in Catering Inquiry</p>
-                            <input class="form__input__field" type="text" name="full_name" placeholder="Full name*"
-                                required>
-                            <input class="form__input__field" type="phone" name="phone_number"
-                                placeholder="Phone number*" required>
-                            <input class="form__input__field" type="email" name="email" placeholder="Enter*" required>
-                            <input class="form__input__field" type="text" name="event_date" placeholder="Event date">
-                            <input class="form__input__field" type="number" name="number_of_people"
-                                placeholder="Number of people">
-                            <input class="form__input__field" name="textarea"
-                            placeholder="Leave any questions or specific notes">
-                            <input class="form__button" type="submit" value="Submit">
-                        </fieldset>
-                    </form>
+                    <div class="catering-form_container">
+                        <form id="my-form" class="catering__request__form" action="https://formspree.io/f/xdobrkpg"
+                            method="post">
+                            <div class="catering-page_form-box">
+                                <fieldset class="catering_form-box">
+                                    <h2 class="form__header">REQUEST</h2>
+                                    <p class="form__headline">Fill in Catering Inquiry</p>
+                                    <input class="form__input__field" type="text" name="full_name" placeholder="Full name*"
+                                        required>
+                                    <input class="form__input__field" type="tel" name="phone_number"
+                                        placeholder="+1 (___) ____ ____" required>
+                                    <input class="form__input__field" type="email" name="email" placeholder="E-email*"
+                                        required>
+                                    <input class="form__input__field" type="text" name="event_date"
+                                        placeholder="Event date">
+                                    <input class="form__input__field" type="number" name="number_of_people"
+                                        placeholder="Number of people">
+                                    <input class="form__button" type="submit" value="Submit">
+                                    <div class="my-form-status_container" id="my-form-status"></div>
+                                </fieldset>
+                            </div>
+                        </form>
+                    </div>
                 </div>
-                <div class="catering__page_divider-bottom"></div>
             </section>
+            <div class="catering__page_divider-bottom"></div>
         </main>
         <footer>
             <div class="footer__container">
@@ -275,6 +282,7 @@
             </div>
         </footer>
         <script src="js/header__burger-menu.js"></script>
+        <script src="js/contact-form-catering-page.js"></script>
     </body>
 </div>
 
