@@ -258,11 +258,11 @@ fieldset {
   display: flex;
   justify-content: center;
 }
-.form__input__field.success input {
+.form__control.success input {
   border: 2px solid var(--success-color);
   outline: none;
 }
-.form__input__field.error input {
+.form__control.error input {
   border: 2px solid var(--error-color);
   outline: none;
 }

@@ -1,3 +1,4 @@
+( function () {
 const userName = document.querySelector(".username");
 const phoneNumber = document.querySelector(".phone__number");
 const email = document.querySelector(".email");
@@ -5,11 +6,11 @@ const email = document.querySelector(".email");
 
 function showSuccess(input) {
     const formControl = input.parentElement;
-    formControl.className = 'form__input__field success';
+    formControl.className = 'form__control success';
 }
 function showError(input) {
     const formControl = input.parentElement;
-    formControl.className = 'form__input__field error';
+    formControl.className = 'form__control error';
 }
 function checkLength(input, min, max) {
     if (input.value.length < min) {
@@ -48,3 +49,4 @@ form.addEventListener('submit', function(e) {
       checkEmail(email);
     }
 });
+}) ();
