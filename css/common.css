@@ -32,6 +32,8 @@
   --bg-taste-post-color: #140a0aa8;
   --text-taste-post-color: #adadad;
   --catering-slogan-text-color: #282623;
+  --success-color: #2ecc71;
+  --error-color: #e7272d;
 }
 * {
   margin: 0;
