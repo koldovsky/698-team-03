@@ -3,9 +3,12 @@
   background-position: top;
   background-size: cover;
   text-align: center;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
-.ourBurgers__title {
-  text-align: center;
+.section__ourBurgers-header {
+  margin-bottom: 70px;
+  padding-top: 50px;
 }
 .section__ourBurgers-header p {
   padding: 20px;
@@ -15,6 +18,10 @@
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 60px;
+}
+.owl-item img {
+  max-width: 70%;
+  margin: 0 auto;
 }
 .owl-item h3{
 font-family: var(--headline-font-family);

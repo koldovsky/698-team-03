@@ -13,3 +13,33 @@
 .header__banner-text {
   color: white;
 }
+
+.hb-text__container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start
+}
+
+.header__banner-supertitle {
+  font-size: 40px;
+}
+
+@media (min-width: 800px) {
+  .hb-text__container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .header__banner-supertitle {
+    font-size: 63px;
+  }
+}
+
+.header__divider {
+  max-width: 1600px;
+  width: 100%;
+}
+
+.contacts-card__icon {
+  width: 70px;
+}

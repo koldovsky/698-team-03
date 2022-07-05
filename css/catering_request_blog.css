@@ -96,10 +96,10 @@ fieldset {
   padding: 11px 22px;
   cursor: text;
 }
-.form__input__field:focus {
+/* .form__input__field:focus {
   border: 2px solid var(--input-field-focus-border-color);
   outline: none;
-}
+} */
 .form__button {
   display: inline-block;
   border-radius: 20px;
@@ -257,4 +257,12 @@ fieldset {
 .countdown {
   display: flex;
   justify-content: center;
+}
+.form__input__field.success input {
+  border: 2px solid var(--success-color);
+  outline: none;
+}
+.form__input__field.error input {
+  border: 2px solid var(--error-color);
+  outline: none;
 }
