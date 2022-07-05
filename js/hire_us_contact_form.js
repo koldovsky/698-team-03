@@ -43,10 +43,9 @@ function checkLength(input, min, max) {
   }
 form.addEventListener('submit', function(e) {
     e.preventDefault();
-     checkRequired([userName, phoneNumber, email]) {
+     checkRequired([userName, phoneNumber, email])
       checkLength(userName, 3, 15);
       checkLength(phoneNumber, 6, 10);
       checkEmail(email);
-    }
 });
 }) ();
