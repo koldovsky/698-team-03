@@ -5,11 +5,11 @@ const email = document.querySelector(".email");
 
 function showSuccess(input) {
     const formControl = input.parentElement;
-    formControl.className = 'form-control success';
+    formControl.className = 'form__input__field success';
 }
 function showError(input) {
     const formControl = input.parentElement;
-    formControl.className = 'form-control error';
+    formControl.className = 'form__input__field error';
 }
 function checkLength(input, min, max) {
     if (input.value.length < min) {
