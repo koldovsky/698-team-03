@@ -14,7 +14,7 @@ function showError(input) {
 }
 function checkLength(input, min, max) {
     if (input.value.length < min) {
-      showError();
+      showError(input);
     } else if (input.value.length > max) {
       showError(input);
     } else {
@@ -30,17 +30,14 @@ function checkLength(input, min, max) {
     }
   }
   function checkRequired(inputArr) {
-    let isRequired = false;
     inputArr.forEach(function(input) {
       if (input.value.trim() === '') {
         showError(input);
-        isRequired = true;
       } else {
         showSuccess(input);
       }
     });
-    return isRequired;
-  }
+ }
 form.addEventListener('submit', function(e) {
     e.preventDefault();
      checkRequired([userName, phoneNumber, email])
