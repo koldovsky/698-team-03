@@ -47,4 +47,10 @@ form.addEventListener('submit', function(e) {
       checkEmail(email);
      } 
     });
+
+  function submitForm() {
+    if (showSuccess(userName) && showSuccess(phoneNumber) && showSuccess(email)) {return form.submit();}
+  }
+
+
  }) ();
