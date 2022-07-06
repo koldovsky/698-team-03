@@ -1,7 +1,10 @@
 .header {
   background-color: var(--main-bcgr-color);
   background-image: none;
-  height: 500px;
+}
+
+.header__banner {
+  padding-top: 80px;
 }
 
 .hb-text__container {
@@ -17,7 +20,7 @@
 .hb-text__container {
   display: flex;
   flex-direction: column;
-  align-items: flex-start
+  align-items: flex-start;
 }
 
 .header__banner-supertitle {
@@ -35,11 +38,94 @@
   }
 }
 
-.header__divider {
+.header__divider,
+.footer__divider {
   max-width: 1600px;
   width: 100%;
 }
 
+.cards__container {
+  background-color: var(--bg-color-contacts-cards);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -10px;
+}
+
+.card__box {
+  height: 280px;
+  width: 500px;
+  padding: 0 25px;
+  background-color: var(--contacts-cards-color);
+  margin: 0 5px 5px 5px;
+	border-radius: 5px;
+	box-shadow: 1px 10px 10px rgb(128, 128, 128, 0.2);
+}
+
+@media (min-width: 800px) {
+  .cards__container {
+    padding: 0 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -10px;
+  }
+
+  .card__box {
+    max-width: 300px;
+    min-width: 150px;
+  }
+}
+
 .contacts-card__icon {
   width: 70px;
+  padding-top: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.card-box__title {
+  font-family: var(--headline-font-family);
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--slogan-text-color);
+}
+
+.card-box__title,
+.contacts-card__text,
+.contacts-card__subtext {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.contacts-card__subtext {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+
+.contacts-card__text,
+.contacts-card__subtext {
+  text-align: center;
+  font-family: var(--subheadline-font-family);
+  font-size: 14px;
+}
+
+.contacts-card__text {
+  color: var(--article-text-color);
+  line-height: 1.5em;
+}
+
+.contacts-card__subtext {
+  color: var(--list-items-color);
+  font-weight: 700;
+}
+
+.contacts-map__container {
+  background-color: var(--bg-color-contacts-cards);
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
 }

@@ -1,3 +1,5 @@
+( function () {
+const form = document.querySelector(".catering__request__form");
 const userName = document.querySelector(".username");
 const phoneNumber = document.querySelector(".phone__number");
 const email = document.querySelector(".email");
@@ -5,11 +7,11 @@ const email = document.querySelector(".email");
 
 function showSuccess(input) {
     const formControl = input.parentElement;
-    formControl.className = 'form__input__field success';
+    formControl.className = 'form__control success';
 }
 function showError(input) {
     const formControl = input.parentElement;
-    formControl.className = 'form__input__field error';
+    formControl.className = 'form__control error';
 }
 function checkLength(input, min, max) {
     if (input.value.length < min) {
@@ -29,22 +31,20 @@ function checkLength(input, min, max) {
     }
   }
   function checkRequired(inputArr) {
-    let isRequired = false;
     inputArr.forEach(function(input) {
       if (input.value.trim() === '') {
         showError(input);
-        isRequired = true;
       } else {
         showSuccess(input);
       }
     });
-    return isRequired;
-  }
+ }
 form.addEventListener('submit', function(e) {
     e.preventDefault();
      if (checkRequired([userName, phoneNumber, email])) {
       checkLength(userName, 3, 15);
       checkLength(phoneNumber, 6, 10);
       checkEmail(email);
-    }
-});
+     }
+    });
+}) ();
