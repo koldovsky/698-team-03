@@ -38,7 +38,8 @@
   }
 }
 
-.header__divider {
+.header__divider,
+.footer__divider {
   max-width: 1600px;
   width: 100%;
 }
@@ -53,7 +54,7 @@
 }
 
 .card__box {
-  height: 320px;
+  height: 280px;
   width: 500px;
   padding: 0 25px;
   background-color: var(--contacts-cards-color);
@@ -79,7 +80,7 @@
 
 .contacts-card__icon {
   width: 70px;
-  padding-top: 50px;
+  padding-top: 40px;
   display: block;
   margin-left: auto;
   margin-right: auto
@@ -99,6 +100,12 @@
   text-align: center;
 }
 
+.contacts-card__subtext {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+
 .contacts-card__text,
 .contacts-card__subtext {
   text-align: center;
@@ -114,4 +121,11 @@
 .contacts-card__subtext {
   color: var(--list-items-color);
   font-weight: 700;
+}
+
+.contacts-map__container {
+  background-color: var(--bg-color-contacts-cards);
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
 }
