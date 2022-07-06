@@ -1,4 +1,5 @@
 ( function () {
+const form = document.querySelector("form");
 const userName = document.querySelector(".username");
 const phoneNumber = document.querySelector(".phone__number");
 const email = document.querySelector(".email");
