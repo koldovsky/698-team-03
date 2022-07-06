@@ -44,14 +44,18 @@
  .section__franchising {
      background-image: url(/img/wait\ fon.png);
      background-position: center;
-   
+     background-repeat: no-repeat;
+     background-size: cover;
     }
 
-  .section__franchising-img {
-    display: grid;
-    grid-template-columns: 1fr;
-  
+  .section__franchising-img img {
+    width: 90%;
+    height: 80%;
+    object-fit:cover;
+    justify-content: center;
+    
   }
+  
 
 .franchising-slogan-text {
   color: black;
@@ -67,7 +71,12 @@
  @media screen and (max-width: 320px) {
   .section__franchising {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr;    
+  }
+  .section__franchising-img img {
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
   }
 }
 @media screen and (min-width: 768px) {
@@ -75,7 +84,24 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: center;
+    background-position: center;
+    box-sizing: border-box;
+    width: 90%;
+    height: 100%;
+    margin: 50px ;
   }
+   
+
+  .section__franchising-text {
+   margin: 30px;
+  
+  }
+  .section__franchising-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+    }
 }
 .franchising-histori-text {
   color: black;
@@ -83,7 +109,7 @@
   font-size: 17px;
   font-weight: 700;
   justify-content: center;
-  margin: 0 0 25px;
+  margin: 0 0 25;
 }
 
 .franchising-slogan-included {
@@ -124,7 +150,9 @@
  
 .section__gatering__max {
   background-image: url(/img/wait\ fon.png);
-
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 @media screen and (max-width: 320px) {
   .section__gatering__max {
@@ -137,7 +165,18 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: center;
+    width: 90%;
+    height: 100%;
+    margin: 50px ;
   }
+  .section__gatering-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+  .section__gatering-text {
+    margin: 30px;
+  } 
 }
 
 .gatering-slogan-text {
