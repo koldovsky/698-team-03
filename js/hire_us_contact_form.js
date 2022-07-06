@@ -46,7 +46,7 @@ form.addEventListener('submit', function(e) {
       checkLength(phoneNumber, 6, 10);
       checkEmail(email);
      }
-     form.submit();
     });
-
+function submittingForm() {
+  if (checkRequired([userName, phoneNumber, email]) === showSuccess(input)) return form.submit();}
 }) ();
