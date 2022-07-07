@@ -47,11 +47,9 @@
     checkLength(phoneNumber, 6, 10);
     checkEmail(email);
   }
-  function otherFUnction() {
+  function otherFunction() {
     return validationInitiation();
   }
 
-  form.addEventListener("submit", function (e) {
-    
-    });
+  form.addEventListener("submit", otherFunction());
   })();
