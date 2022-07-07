@@ -40,15 +40,16 @@ function checkLength(input, min, max) {
     });
  }
 form.addEventListener('submit', function(e) {
-    // e.preventDefault();
-     checkRequired([userName, phoneNumber, email]) 
+    e.preventDefault();
+     if (checkRequired([userName, phoneNumber, email])) {
       checkLength(userName, 3, 15);
       checkLength(phoneNumber, 6, 10);
       checkEmail(email);
-     } 
+     }
+    } 
     );  
- /* function submitForm() {
+ function submitForm() {
     if (checkLength(userName, 3, 15) )
-  }  */
+  }  
   
   }) ();
