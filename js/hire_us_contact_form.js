@@ -40,18 +40,16 @@
       }
     });
   }
-  function formSubmit(input) {
-    const formControlSubmit = input.parentElement;
-    if (formControlSubmit.className === "form__control") {
-    // if (userName.className === success) 
-    form.submit();}}
+  
   form.addEventListener("submit", function (e) {
     e.preventDefault();
     checkRequired([userName, phoneNumber, email]);
     checkLength(userName, 3, 15);
     checkLength(phoneNumber, 6, 10);
     checkEmail(email);
-    formSubmit(userName);
-});
-  
+    });
+    function formSubmit(userName) {
+    const formControlSubmit = input.parentElement;
+    if (formControlSubmit.className === "form__control success") {
+    form.submit();}}
 })();
