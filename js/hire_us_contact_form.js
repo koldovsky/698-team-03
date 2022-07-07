@@ -48,6 +48,6 @@
     checkEmail(email);
 });
   function formSubmit() {
-    if (checkRequired([userName, phoneNumber, email]) === success && checkLength(userName, 3, 15) === success) 
+    if (checkRequired(inputArr) === success && checkLength(input, min, max) === success) 
     return form.submit();}
 })();
