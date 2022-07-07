@@ -46,8 +46,11 @@
     checkLength(userName, 3, 15);
     checkLength(phoneNumber, 6, 10);
     checkEmail(email);
+    formSubmit(userName);
 });
-  function formSubmit() {
-    if (userName.className === success) 
+  function formSubmit(input) {
+    const formControlSubmit = input.parentElement;
+    if (formControlSubmit.className === "form__control success")
+    // if (userName.className === success) 
     return form.submit();}
 })();
