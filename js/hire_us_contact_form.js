@@ -46,9 +46,5 @@ form.addEventListener('submit', function(e) {
       checkLength(phoneNumber, 6, 10);
       checkEmail(email);
      } 
-     e.currentTarget.submit();
     });   
-  
-
-
- }) ();
+  }) ();
