@@ -40,6 +40,11 @@
       }
     });
   }
+  function formSubmit(input) {
+    const formControlSubmit = input.parentElement;
+    if (formControlSubmit.className === "form__control")
+    // if (userName.className === success) 
+    return form.submit();}
   form.addEventListener("submit", function (e) {
     e.preventDefault();
     checkRequired([userName, phoneNumber, email]);
@@ -48,9 +53,5 @@
     checkEmail(email);
     formSubmit(userName);
 });
-  function formSubmit(input) {
-    const formControlSubmit = input.parentElement;
-    if (formControlSubmit.className === "form__control success")
-    // if (userName.className === success) 
-    return form.submit();}
+  
 })();
