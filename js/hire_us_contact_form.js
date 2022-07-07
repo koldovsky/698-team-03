@@ -42,9 +42,9 @@
   }
   function formSubmit(input) {
     const formControlSubmit = input.parentElement;
-    if (formControlSubmit.className === "form__control")
+    if (formControlSubmit.className === "form__control") {
     // if (userName.className === success) 
-    return form.submit();}
+    form.submit();}}
   form.addEventListener("submit", function (e) {
     e.preventDefault();
     checkRequired([userName, phoneNumber, email]);
