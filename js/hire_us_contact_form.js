@@ -48,7 +48,7 @@ form.addEventListener('submit', function(e) {
      } 
      e.currentTarget.submit();
     });   
-  }
+  
 
 
  }) ();
