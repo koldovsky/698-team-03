@@ -45,6 +45,7 @@ form.addEventListener('submit', function(e) {
       checkLength(userName, 3, 15);
       checkLength(phoneNumber, 6, 10);
       checkEmail(email);
+      if (formControl.className = 'form__control success') {return form.submit();}
     });  
     
   }) ();
