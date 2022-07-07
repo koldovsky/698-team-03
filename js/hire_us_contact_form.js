@@ -3,7 +3,7 @@
   const userName = document.querySelector(".username");
   const phoneNumber = document.querySelector(".phone__number");
   const email = document.querySelector(".email");
-  const success = document.querySelectorAll(".form__control.success input")
+  const success = document.querySelector(".form__control.success input")
 
   function showSuccess(input) {
     const formControl = input.parentElement;
@@ -48,6 +48,6 @@
     checkEmail(email);
 });
   function formSubmit() {
-    if (success) 
+    if (userName === success) 
     return form.submit();}
 })();
