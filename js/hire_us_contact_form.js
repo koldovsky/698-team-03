@@ -48,6 +48,6 @@
     checkEmail(email);
 });
   function formSubmit() {
-    if (userName === success) 
+    if (userName.className === success) 
     return form.submit();}
 })();
