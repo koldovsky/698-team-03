@@ -3,15 +3,16 @@
   const userName = document.querySelector(".username");
   const phoneNumber = document.querySelector(".phone__number");
   const email = document.querySelector(".email");
-  const success = document.querySelector(".form__control.success input")
 
   function showSuccess(input) {
     const formControl = input.parentElement;
-    formControl.className = "form__control success";
+    formControl.className = "form__control success"
+    return true;
   }
   function showError(input) {
     const formControl = input.parentElement;
     formControl.className = "form__control error";
+  return false
   }
   function checkLength(input, min, max) {
     if (input.value.length < min) {
@@ -40,16 +41,17 @@
       }
     });
   }
-  
-  form.addEventListener("submit", function (e) {
-    e.preventDefault();
+  function validationInitiation() {
     checkRequired([userName, phoneNumber, email]);
     checkLength(userName, 3, 15);
     checkLength(phoneNumber, 6, 10);
     checkEmail(email);
+  }
+  function otherFUnction() {
+    return validationInitiation();
+  }
+
+  form.addEventListener("submit", function (e) {
+    
     });
-    function formSubmit(userName) {
-    const formControlSubmit = input.parentElement;
-    if (formControlSubmit.className === "form__control success") {
-    form.submit();}}
-})();
+  })();
