@@ -3,6 +3,7 @@
   const userName = document.querySelector(".username");
   const phoneNumber = document.querySelector(".phone__number");
   const email = document.querySelector(".email");
+  const success = document.querySelectorAll(".form__control.success input")
 
   function showSuccess(input) {
     const formControl = input.parentElement;
@@ -39,7 +40,6 @@
       }
     });
   }
-  const success = showSuccess(input);
   form.addEventListener("submit", function (e) {
     e.preventDefault();
     checkRequired([userName, phoneNumber, email]);
@@ -48,6 +48,6 @@
     checkEmail(email);
 });
   function formSubmit() {
-    if (checkRequired(inputArr) === success && checkLength(input, min, max) === success) 
+    if (success) 
     return form.submit();}
 })();
