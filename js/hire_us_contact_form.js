@@ -46,7 +46,8 @@
     checkLength(userName, 3, 15);
     checkLength(phoneNumber, 6, 10);
     checkEmail(email);
-    if (checkRequired([userName, phoneNumber, email]) === success && checkLength(userName, 3, 15) === success) return form.submit();
-  });
-  
+});
+  function formSubmit() {
+    if (checkRequired([userName, phoneNumber, email]) === success && checkLength(userName, 3, 15) === success) 
+    return form.submit();}
 })();
