@@ -33,13 +33,21 @@
     }
   }
   function checkRequired(inputArr) {
-    inputArr.forEach(function (input) {
-      if (input.value.trim() === "") {
-       return showError(input);
+    let validationError = false;
+    inputArr.forEach(function (input) 
+    { if (input.value.trim() === "") {
+       showError(input);
+       validationError = true;
       } else {
-        return showSuccess(input);
+      showSuccess(input);
       }
     });
+  if (validationError == true) 
+  {
+    return false;
+  } else {
+    return true;
+  }
   }
   function validationInitiation() {
    if (checkRequired([userName, phoneNumber, email]) &&
