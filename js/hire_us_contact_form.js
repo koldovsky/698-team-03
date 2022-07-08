@@ -3,16 +3,17 @@
   const userName = document.querySelector(".username");
   const phoneNumber = document.querySelector(".phone__number");
   const email = document.querySelector(".email");
+  let isValid;
 
   function showSuccess(input) {
     const formControl = input.parentElement;
     formControl.className = "form__control success"
-    return true;
+    isValid = true;
   }
   function showError(input) {
     const formControl = input.parentElement;
     formControl.className = "form__control error";
-  return false
+    isValid = false;
   }
   function checkLength(input, min, max) {
     if (input.value.length < min) {
@@ -48,8 +49,10 @@
     checkEmail(email);
   }
   function otherFunction() {
-    return validationInitiation();
-  }
+    if (isValid === false) { 
+    return validationInitiation();}
+    else form.submit();
+    }
 
   form.addEventListener("submit", otherFunction());
   })();
