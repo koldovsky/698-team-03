@@ -55,7 +55,8 @@
 
 .card__box {
   height: 280px;
-  width: 500px;
+  max-width: 500px;
+  width: 75%;
   padding: 0 25px;
   background-color: var(--contacts-cards-color);
   margin: 0 5px 5px 5px;
@@ -123,7 +124,10 @@
   font-weight: 700;
 }
 
+
+
 .contacts-map__container {
+  width: 100%;
   background-color: var(--bg-color-contacts-cards);
   display: flex;
   justify-content: center;
