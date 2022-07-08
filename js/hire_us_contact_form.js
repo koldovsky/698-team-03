@@ -7,7 +7,7 @@
 
   function showSuccess(input) {
     const formControl = input.parentElement;
-    formControl.className = "form__control success"
+    formControl.className = "form__control success";
     isValid = true;
   }
   function showError(input) {
@@ -49,7 +49,7 @@
     checkEmail(email);
   }
   function otherFunction() {
-    return validationInitiation();}
+        return validationInitiation();}
 
   form.addEventListener("submit", otherFunction());
   })();
