@@ -7,70 +7,70 @@
   function showSuccess(input) {
     const formControl = input.parentElement;
     formControl.className = "form__control success";
-    return true;
   }
   function showError(input) {
     const formControl = input.parentElement;
     formControl.className = "form__control error";
-    return false;
   }
   function checkLength(input, min, max) {
     if (input.value.length < min) {
-     return showError(input);
+      showError(input);
+      return false;
     } else if (input.value.length > max) {
-      return showError(input);
+      showError(input);
+      return false;
     } else {
-      return showSuccess(input);
+      showSuccess(input);
+      return true;
     }
   }
   function checkEmail(input) {
     const re =
       /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     if (re.test(input.value.trim())) {
-      return showSuccess(input);
+      showSuccess(input);
+      return true;
     } else {
-      return showError(input);
+      showError(input);
+      return false;
     }
   }
   function checkRequired(inputArr) {
     let validationError = false;
-    inputArr.forEach(function (input) 
-    { if (input.value.trim() === "") {
-       showError(input);
-       validationError = true;
+    inputArr.forEach(function (input) {
+      if (input.value.trim() === "") {
+        showError(input);
+        validationError = true;
       } else {
-      showSuccess(input);
+        showSuccess(input);
       }
     });
-  if (validationError == true) 
-  {
-    return false;
-  } else {
-    return true;
-  }
+    if (validationError == true) {
+      return false;
+    } else {
+      return true;
+    }
   }
   function validationInitiation() {
-   if (checkRequired([userName, phoneNumber, email]) &&
-    checkLength(userName, 3, 15) &&
-    checkLength(phoneNumber, 6, 10) &&
-    checkEmail(email)) {
-      return true
+    if (
+      checkRequired([userName, phoneNumber, email]) &&
+      checkLength(userName, 3, 15) &&
+      checkLength(phoneNumber, 6, 10) &&
+      checkEmail(email)
+    ) {
+      return true;
     } else {
-      return false
+      return false;
     }
   }
 
-   function comparingResults(event) {
-     event.preventDefault();
-     if (validationInitiation() === true) {
+  function comparingResults(event) {
+    event.preventDefault();
+    if (validationInitiation() === true) {
       form.submit();
-     }; 
-       
-    /* if (checkRequired([userName, phoneNumber, email]) == false || checkLength(userName, 3, 15) == false || checkLength(phoneNumber, 6, 10) == false || checkEmail(email) == false)
-       {return validationInitiation();}
-    else if (checkRequired([userName, phoneNumber, email]) === true && checkLength(userName, 3, 15) === true && checkLength(phoneNumber, 6, 10) === true && checkEmail(email) === true) 
-    form.submit();*/
-        }
-  
+    } else {
+      console.log("Something happened wrong");
+    }
+  }
   form.addEventListener("submit", comparingResults);
-  })();
+})();
