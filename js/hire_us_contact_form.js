@@ -51,7 +51,7 @@
   function otherFunction() {
     if (isValid === false) { 
     return validationInitiation();}
-    else form.submit();
+    //else form.submit();
     }
 
   form.addEventListener("submit", otherFunction());
