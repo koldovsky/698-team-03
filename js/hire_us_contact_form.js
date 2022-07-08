@@ -49,6 +49,7 @@
     checkEmail(email);
   }
   function otherFunction() {
+    if (isValid == false)
         return validationInitiation();}
 
   form.addEventListener("submit", otherFunction());
