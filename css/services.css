@@ -2,6 +2,7 @@
   background-image: url( /img/fon.servise.jpg);
   background-size: cover;
   margin:auto;
+  padding: 30px;
 }
 .section__services-text-promo {
   color: red;
@@ -132,45 +133,31 @@
   background-color: var(--button-background-color-on-hover);
 }
 
- 
 .section__gatering__max {
-  background-image: url(/img/wait\ fon.png);
+  background-color: white;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   border-radius: 10px;
   margin: 30px;
 }
 .section__gatering-img img {
   object-fit:cover;
-  justify-content: center;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
-   
+  display: block;
+  width: 100%;
 }
-    
-@media screen and (max-width: 320px) {
-  .section__gatering__max {
-    display: grid;
-    grid-template-columns: 1fr;
-    }
+.section__catering-text {
+  padding: 31px 27px;
 
-   .section__gatering-img img {
-    
-    object-fit: cover;
-  }    
 }
+
 @media screen and (min-width: 768px) {
   .section__gatering__max {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: center;
-    background-position: center;
-    box-sizing: border-box;
-    width: 90%;
-    height: 100%;
-    margin: 50px;
-   
+    grid-template-columns: 1fr 1fr; 
   }
    
   .section__gatering-img img {
@@ -178,6 +165,7 @@
     height: 100%;
     object-fit: cover;
   }
+
    .section__gatering-text {
     margin: 30px;
   } 
@@ -187,8 +175,6 @@
   color: black;
   font-family: Rubik, sans-serif;
   font-size: 30px;
-  display: flex;
-  flex-direction: row;
   font-weight: 700;
   margin: 0 0 25px;
 }
@@ -237,10 +223,11 @@
   cursor: pointer;
   color: var(--white-color);
   display: inline-block; 
+  margin: 0 0 25px;
 }
 
 .button__catering:hover {
   background-color: var(--button-background-color-on-hover);
-  background-size: cover;
+ 
 }
 
