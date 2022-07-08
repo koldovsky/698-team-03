@@ -47,12 +47,13 @@
     checkLength(phoneNumber, 6, 10);
     checkEmail(email);}
 
-    function comparingResults() {
-      validationInitiation() 
+   async function comparingResults(event) {
+      event.preventDefault();
+      validationInitiation(); 
     if (checkRequired([userName, phoneNumber, email]) == false || checkLength(userName, 3, 15) == false || checkLength(phoneNumber, 6, 10) == false || checkEmail(email) == false)
        {return validationInitiation();}
     else if (checkRequired([userName, phoneNumber, email]) == true && checkLength(userName, 3, 15) == true && checkLength(phoneNumber, 6, 10) == true && checkEmail(email) == true) 
         return form.submit();}
   
-  form.addEventListener("submit", comparingResults());
+  form.addEventListener("submit", comparingResults);
   })();
