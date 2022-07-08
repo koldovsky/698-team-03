@@ -1,34 +1,28 @@
-
 .section__services {
   background-image: url( /img/fon.servise.jpg);
   background-size: cover;
-  margin: 0 0 25px;
+  margin:auto;
 }
 .section__services-text-promo {
   color: red;
   font-size: 17px;
   font-family: "Permanent Marker", cursive;
-  display: flex;
-  flex-direction: row;
   justify-content: center;
   overflow: hidden;
-  margin: avto;
-  line-height:3;
+  margin: auto;
+  line-height: 3;
  }
 
 .services-slogan-text {
   color: black;
   font-family: Rubik, "Permanent Marker", sans-serif;
   font-size: 38px;
-  display: flex;
-  flex-direction: row;
   justify-content: center;
   overflow: hidden;
   line-height: 1.1;
   font-weight: 700;
   margin: 0 0 25px;
 }
-
 .services-histori-text {
   color: black;
   font-family: Lato, sans-serif;
@@ -42,25 +36,46 @@
   text-transform: none;
   text-align: center;
 }
+
+
  .section__franchising {
-     background-image: url(/img/wait\ fon.png);
+     background-color: white;
      background-position: center;
      background-repeat: no-repeat;
      background-size: cover;
+     background-attachment: fixed;
      border-radius: 10px;
-    margin: 30px;
-   display: grid;
-   grid-template-columns: 1fr;
-    }
+     margin: 30px;   
+ }
+
+.section__franchising-text{
+  padding: 31px 27px;
+}
 
   .section__franchising-img img {
-   
-    object-fit:cover;
-    justify-content: center;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+   object-fit:cover;
+   border-top-left-radius: 10px;
+   border-bottom-left-radius: 10px;
+   display: block;
+   width: 100%;
   }
+
+  @media screen and (min-width: 768px) {
+    .section__franchising {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      }
+      
+    .section__franchising-text {
+     margin: 30px;
+      }
   
+    .section__franchising-img img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+          }
+  }
 
 .franchising-slogan-text {
   color: black;
@@ -68,49 +83,9 @@
   font-size: 30px;
   font-weight: 700;
   justify-content: center;
-  display: grid;
-  grid-template-columns: 1fr;
   margin: 0 0 25px;
-  
-}
- @media screen and (max-width: 320px) {
-  
-  .section__franchising {
-    display: grid;
-    grid-template-columns: 1fr;  
-  
   }
-  .section__franchising-img img {
-   display: grid;
-  }  
-    
-}
-
-@media screen and (min-width: 768px) {
-  .section__franchising {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: center;
-    background-position: center;
-    box-sizing: border-box;
-    width: 90%;
-    height: 100%;
-   
-      }
-    
-  .section__franchising-text {
-   margin: 30px;
-    }
-
-  .section__franchising-img img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-            
-  }
-}
-    
-
+ 
 .franchising-histori-text {
   color: black;
   font-family: Lato, sans-serif;
