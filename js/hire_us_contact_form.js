@@ -46,10 +46,8 @@
     checkLength(userName, 3, 15);
     checkLength(phoneNumber, 6, 10);
     checkEmail(email);
-  }
-  function otherFunction() {
     if (checkRequired([userName, phoneNumber, email]) == false || checkLength(userName, 3, 15) == false || checkLength(phoneNumber, 6, 10) == false || checkEmail(email) == false)
         return validationInitiation();}
-
-  form.addEventListener("submit", otherFunction());
+  
+  form.addEventListener("submit", validationInitiation());
   })();
