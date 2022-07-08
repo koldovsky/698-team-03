@@ -49,7 +49,7 @@
     checkEmail(email);
   }
   function otherFunction() {
-    if (isValid == false)
+    if (checkRequired([userName, phoneNumber, email]) == false || checkLength(userName, 3, 15) == false || checkLength(phoneNumber, 6, 10) == false || checkEmail(email) == false)
         return validationInitiation();}
 
   form.addEventListener("submit", otherFunction());
