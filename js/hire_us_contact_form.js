@@ -47,7 +47,7 @@
     checkLength(phoneNumber, 6, 10);
     checkEmail(email);}
 
-   async function comparingResults(event) {
+   function comparingResults(event) {
      // event.preventDefault();
       validationInitiation(); 
     if (checkRequired([userName, phoneNumber, email]) == false || checkLength(userName, 3, 15) == false || checkLength(phoneNumber, 6, 10) == false || checkEmail(email) == false)
