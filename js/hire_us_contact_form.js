@@ -49,7 +49,7 @@
     checkEmail(email);
   }
   function otherFunction() {
-    if (isValid === false) { 
+    if (isValid == false) { 
     return validationInitiation();}
     //else form.submit();
     }
