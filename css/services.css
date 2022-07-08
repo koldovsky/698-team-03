@@ -49,6 +49,8 @@
      background-size: cover;
      border-radius: 10px;
     margin: 30px;
+   display: grid;
+   grid-template-columns: 1fr;
     }
 
   .section__franchising-img img {
@@ -79,16 +81,12 @@
   
   }
   .section__franchising-img img {
-    width: 50%;
-    height: 50%;
-    object-fit: cover;
+   display: grid;
+  }  
     
-  }
 }
+
 @media screen and (min-width: 768px) {
-  
-   
-  
   .section__franchising {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -119,13 +117,15 @@
   font-size: 17px;
   font-weight: 700;
   justify-content: center;
-  margin: 0 0 25;
+  margin: 0 0 25px;
 }
 
 .franchising-slogan-included {
   color: black;
   font-family: Lato, sans-serif;
   font-size: 17px;
+  display: flex;
+  flex-direction: row;
   margin: 0 0 25px;
 }
 
@@ -167,26 +167,31 @@
   margin: 30px;
 }
 .section__gatering-img img {
-    object-fit: cover;
-    justify-content: center;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    position:relative;
-    overflow:hidden;
+  object-fit:cover;
+  justify-content: center;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+   
 }
     
 @media screen and (max-width: 320px) {
   .section__gatering__max {
     display: grid;
     grid-template-columns: 1fr;
-  
-  }
+    }
+
+   .section__gatering-img img {
+    
+    object-fit: cover;
+  }    
 }
 @media screen and (min-width: 768px) {
   .section__gatering__max {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: center;
+    background-position: center;
+    box-sizing: border-box;
     width: 90%;
     height: 100%;
     margin: 50px;
@@ -196,11 +201,9 @@
   .section__gatering-img img {
     width: 100%;
     height: 100%;
-  
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-}
-  .section__gatering-text {
+    object-fit: cover;
+  }
+   .section__gatering-text {
     margin: 30px;
   } 
 }
@@ -210,6 +213,7 @@
   font-family: Rubik, sans-serif;
   font-size: 30px;
   display: flex;
+  flex-direction: row;
   font-weight: 700;
   margin: 0 0 25px;
 }
