@@ -63,7 +63,6 @@
       return false;
     }
   }
-
   function comparingResults(event) {
     event.preventDefault();
     if (validationInitiation() === true) {
