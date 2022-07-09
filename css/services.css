@@ -13,26 +13,34 @@
   flex-direction: row;
   overflow: hidden;
   margin: auto;
+line-height: 7;
  }
+
 
 .services-slogan-text {
   color: black;
   font-family: Rubik, "Permanent Marker", sans-serif;
-  font-size: 38px;
+  font-size: 36px;
   justify-content: center;
   overflow: hidden;
   display: flex;
-  flex-direction: row;
   line-height: 1.1;
   font-weight: 700;
   margin: 0 0 25px;
 }
+@media screen and (min-width: 768px) {
+  .services-slogan-text {
+    font-size: 56px;
+    justify-content: center;
+    display: flex;
+  }
+}
+
 .services-histori-text {
   color: black;
   font-family: Lato, sans-serif;
   font-size: 20px;
-  display: flex;
-  flex-direction: row;
+ 
   justify-content: center;
   font-weight: 700;
   margin: 0 0 25px;
@@ -49,7 +57,7 @@
      background-size: cover;
      background-attachment: fixed;
      border-radius: 10px;
-     margin: 30px;   
+     margin: 0;   
      
  }
 
@@ -93,7 +101,7 @@
   font-weight: 700;
   margin: 0 0 25px;
   display: flex;
-  flex-direction:row;
+ 
   }
  
 .franchising-histori-text {
@@ -101,7 +109,7 @@
   font-family: Lato, sans-serif;
   font-size: 17px;
   font-weight: 700;
-  justify-content: center;
+ 
   margin: 0 0 25px;
   display: flex;
   flex-direction:row;
@@ -150,7 +158,7 @@
   background-size: cover;
   background-attachment: fixed;
   border-radius: 10px;
-  margin: 30px;
+  margin: 0;
 }
 .section__gatering-img img {
   object-fit:cover;
@@ -198,17 +206,15 @@ padding: 31px 27px;
   font-size: 17px;
   display: flex;
   flex-direction: row;
-  justify-content: center;
- 
   margin: 0 0 25px;
+  font-weight: 700; 
 }
 
 .gatering-slogan-party {
   color: black;
   font-family: Lato, sans-serif;
   font-size: 17px;
-  display: flex;
-  flex-direction: row;
+  
   margin: 0 0 25px;
 }
 
