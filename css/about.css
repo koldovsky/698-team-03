@@ -164,6 +164,7 @@
   .section__about-main {
     display: grid;
     grid-template-columns: 1fr;
+    padding: 90px 30px 90px 10px;
   }
 
   .section__about-main .section__about-post {
