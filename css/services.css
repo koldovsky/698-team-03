@@ -151,10 +151,19 @@ line-height: 7;
   display: inline-block;
   margin: 0 0 25px;
 }
-
-.button__franchising:hover {
-  background-color: var(--button-background-color-on-hover);
+.franchising-button-link .button__franchising:hover {
+  animation-name: background-color;
+  animation-duration: 500ms;
+    animation-fill-mode: forwards;
+}  
+  @keyframes background-color {
+    100% {
+      background-color: #000;
+    }
 }
+
+
+
 
 .section__gatering__max {
   background-color: white;
@@ -256,9 +265,15 @@ padding: 31px 27px;
   display: inline-block; 
   margin: 0 0 25px;
 }
-
-.button__catering:hover {
-  background-color: var(--button-background-color-on-hover);
- 
+.catering-button-link .button__catering:hover {
+  animation-name: background-color;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+}  
+  @keyframes background-color {
+    100% {
+      background-color: #000;
+    }
 }
+
 
