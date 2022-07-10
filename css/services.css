@@ -57,7 +57,7 @@ line-height: 7;
      background-size: cover;
      background-attachment: fixed;
      border-radius: 10px;
-     margin: 0;   
+     margin: 0 0 25px;   
      
  }
 
@@ -119,6 +119,11 @@ line-height: 7;
   color: black;
   font-family: Lato, sans-serif;
   font-size: 17px;
+  background-image: url(../img/icons8.png);
+  padding-left: 40px;
+  background-position:14px;
+  background-size: 15px;
+  background-repeat: no-repeat;
   display: flex;
   margin: 0 0 25px;
 }
@@ -158,7 +163,7 @@ line-height: 7;
   background-size: cover;
   background-attachment: fixed;
   border-radius: 10px;
-  margin: 0;
+  margin: 0 0 25px;
 }
 .section__gatering-img img {
   object-fit:cover;
@@ -190,6 +195,7 @@ padding: 31px 27px;
     padding: 31px 27px;
     font-weight: 400;
   } 
+ 
 }
 
 .gatering-slogan-text {
@@ -211,11 +217,18 @@ padding: 31px 27px;
 }
 
 .gatering-slogan-party {
+  background-image: url(../img/icons8.png);
+  padding-left: 40px;
+  background-position:14px;
+  background-size: 15px;
+  background-repeat: no-repeat;
   color: black;
+
   font-family: Lato, sans-serif;
   font-size: 17px;
-  
+  display: flex;
   margin: 0 0 25px;
+
 }
 
 .gatering-slogan-corporate {
