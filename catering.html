@@ -209,16 +209,16 @@
                                 <fieldset class="catering_form-box">
                                     <h2 class="form__header">REQUEST</h2>
                                     <p class="form__headline">Fill in Catering Inquiry</p>
-                                    <input class="form__input__field" type="text" name="full_name" placeholder="Full name*"
-                                        required>
-                                    <input class="form__input__field" type="tel" name="phone_number"
+                                    <input class="form__input__field full_name" type="text" name="full_name"
+                                        placeholder="Full name*" required>
+                                    <input class="form__input__field phone_number" type="tel" name="phone_number"
                                         placeholder="+1 (___) ____ ____" required>
-                                    <input class="form__input__field" type="email" name="email" placeholder="E-email*"
-                                        required>
-                                    <input class="form__input__field" type="text" name="event_date"
-                                        placeholder="Event date">
-                                    <input class="form__input__field" type="number" name="number_of_people"
-                                        placeholder="Number of people">
+                                    <input class="form__input__field email" type="email" name="email"
+                                        placeholder="E-email*" pattern="[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?" required>
+                                    <input class="form__input__field event_date" type="date" name="event_date"
+                                        placeholder="Choose Event Date" onfocus="(this.type='date')" required>
+                                    <input class="form__input__field number_of_people" type="number"
+                                        name="number_of_people" placeholder="Number of people" required>
                                     <input class="form__button" type="submit" value="Submit">
                                     <div class="my-form-status_container" id="my-form-status"></div>
                                 </fieldset>

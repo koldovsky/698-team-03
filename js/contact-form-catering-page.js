@@ -28,4 +28,4 @@
         });
     }
     form.addEventListener("submit", handleSubmit)
-}) ();
+})();
