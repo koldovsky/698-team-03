@@ -165,12 +165,15 @@
     <!--Iryna Kukhtyk end -->
   </main>
   <footer>
-    <img class="footer__divider" src="img/divider_black-white.svg" alt="divider" />
     <div class="footer__container">
       <div class="footer__nav-block">
         <div class="footer__nav-logo">
           <a href="index.html">
-            <img class="fn__logo-icon" src="img/footer_logo.svg" alt="footer Web-site Logo" />
+            <img
+              class="fn__logo-icon"
+              src="img/footer_logo.svg"
+              alt="footer Web-site Logo"
+            />
           </a>
           <p class="footer__text">
             We prepare delicious burgers and offer side dishes, salads, and
@@ -179,45 +182,58 @@
           </p>
         </div>
         <div class="footer__social-networks">
-          <a href="" class="fsn-link-fb fsn-link"><img src="img/fb_logo.svg" alt="FB logo" /></a>
-          <a href="" class="fsn-link-inst fsn-link"><img src="img/inst_logo.svg" alt="INST logo" /></a>
-          <a href="" class="fsn-link-yt fsn-link"><img src="img/yt_logo.svg" alt="YT logo" /></a>
+          <a href="" class="fsn-link-fb fsn-link"
+            ><img src="img/fb_logo.svg" alt="FB logo"
+          /></a>
+          <a href="" class="fsn-link-inst fsn-link"
+            ><img src="img/inst_logo.svg" alt="INST logo"
+          /></a>
+          <a href="" class="fsn-link-yt fsn-link"
+            ><img src="img/yt_logo.svg" alt="YT logo"
+          /></a>
         </div>
       </div>
       <nav class="footer__nav-menu">
         <h3 class="footer__nav-subtitle">Navigation</h3>
         <div class="footer-nav__line"></div>
         <div class="footer__nav-link-list">
-          <a href="about.html" class="foot__menu-link">About Us</a>
+          <a href="#about" class="foot__menu-link">About Us</a>
           <a href="" class="foot__menu-link">Menu</a>
-          <a href="catering.html" class="foot__menu-link">Catering</a>
-          <a href="contacts_page.html" class="foot__menu-link">Contacts</a>
+          <a href="" class="foot__menu-link">Catering</a>
+          <a href="" class="foot__menu-link">Contacts</a>
         </div>
       </nav>
       <nav class="footer__nav-customer">
         <h3 class="footer__nav-subtitle">Customers</h3>
         <div class="footer-nav__line"></div>
         <div class="footer__nav-link-list">
-          <a href="#ourburgers__id" class="foot__menu-link">Our burgers</a>
-          <a href="#services__id" class="foot__menu-link">Services</a>
-          <a href="#app_id" class="foot__menu-link">Our app</a>
-          <a href="#blog__id" class="foot__menu-link">Blog</a>
+          <a href="" class="foot__menu-link">Our burgers</a>
+          <a href="" class="foot__menu-link">Services</a>
+          <a href="" class="foot__menu-link">Our app</a>
+          <a href="" class="foot__menu-link">Blog</a>
         </div>
       </nav>
       <div class="footer__email">
         <p class="footer__email-text">
           Subscribe to get the latest news from us:
         </p>
-        <div class="footer-email__container">
-          <input
+        <div id="footer-email__container">
+          <form
+            id="footer-subscribe__form"
+            action="https://formspree.io/f/xwkydyej"
+            method="POST"
+          >
+            <input
               class="footer-input__email"
               type="email"
               name="email"
-              placeholder="Email*"             
+              placeholder="Email*"
             />
-          <ibutton class="footer-button_submit button" type="submit">
-            Subscribe
+            <button id="footer-button_submit" class="button" type="submit">
+              Subscribe
             </button>
+            <p id="subsribing-status" class="subscribe-status"></p>
+          </form>
         </div>
       </div>
     </div>
@@ -228,6 +244,7 @@
     </div>
   </footer>
   <script src="js/header__burger-menu.js"></script>
+  <script src="js/footer-email_form.js"></script>
 </body>
 
 </html>
