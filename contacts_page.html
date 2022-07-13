@@ -145,18 +145,18 @@
         </div>
         <div class="find-us__form">
           <div class="find-us__form-title slogan-text">Want to Become Our Franchisee?</div>
-          <form action="#" method="get" enctype="multipart/form-data">
+          <form action="#" name="ourFranchisee" method="get" enctype="multipart/form-data">
             <div class="find-us__form-item">
-              <input type="text" required placeholder="Enter your full name" />
+              <input type="text" name="inputName" required placeholder="Enter your full name" />
             </div>
             <div class="find-us__form-item">
-              <input type="number" required placeholder="Enter your phone number" min="10" />
+              <input type="number" name="inputPhone" required placeholder="Enter your phone number" min="10" />
             </div>
             <div class="find-us__form-item">
-              <input type="email" required placeholder="Enter your e-mail" />
+              <input type="email" name="inputEmail" required placeholder="Enter your e-mail" />
             </div>
             <div class="find-us__form-item">
-              <button type="submit">Send</button>
+              <button type="submit" name="submitFran">Send</button>
             </div>
           </form>
         </div>
@@ -245,6 +245,7 @@
   </footer>
   <script src="js/header__burger-menu.js"></script>
   <script src="js/footer-email_form.js"></script>
+  <script src="js/our-franchisee_contact-form.js"></script>
 </body>
 
 </html>
