@@ -202,7 +202,7 @@ input.footer-input__email:placeholder {
   align-items: center;
 }
 
-.footer-button_submit {
+#footer-button_submit {
   background-color: var(--main-details-color);
   color: #fff;
   font-size: 15px;
@@ -221,13 +221,13 @@ input.footer-input__email:placeholder {
   align-items: center;
 }
 
-.footer-button_submit:hover {
+#footer-button_submit:hover {
   background-color: var(--accent-main-bcgr-color);
   transition: all 0.2s linear;
 }
 
 @media (min-width: 810px) {
-  .footer-button_submit {
+  #footer-button_submit {
     margin-top: 20px;
     padding: 8px 0;
   }
@@ -247,6 +247,12 @@ input.footer-input__email:placeholder {
   .footer-input__email {
     width: 73%;
   }
+}
+
+#subsribing-status {
+  font-size: 10px;
+  color: var(--article-text-color);
+  margin: 5px;
 }
 
 .footer__line {
