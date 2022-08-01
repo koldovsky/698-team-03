@@ -189,7 +189,7 @@ footer {
   margin-top: 20px;
   padding: 8px 0;
   border: 0;
-  padding-left: 20px;
+  text-indent: 20px;
 }
 
 input.footer-input__email:placeholder {
@@ -209,10 +209,10 @@ input.footer-input__email:placeholder {
   font-family: var(--subheadline-font-family);
   margin-top: 20px;
   padding: 8px 0;
-  width: 80%;
+  width: 100%;
 }
 .footer-input__email {
-  width: 77%;
+  width: 100%;
 }
 
 .footer__rights {
@@ -245,7 +245,7 @@ input.footer-input__email:placeholder {
   }
 
   .footer-input__email {
-    width: 73%;
+    width: 100%;
   }
 }
 
